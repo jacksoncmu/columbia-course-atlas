@@ -21,6 +21,7 @@ const figures = {
   plus: '<path d="M12 5v14M5 12h14"/>',
   minus: '<path d="M5 12h14"/>',
   fit: '<path d="M4 9V4h5m6 0h5v5m0 6v5h-5m-6 0H4v-5"/>',
+  fullscreen: '<path d="M14 4h6v6m0-6-7 7M10 20H4v-6m0 6 7-7"/>',
   close: '<path d="m6 6 12 12M18 6 6 18"/>',
   chevron: '<path d="m9 6 6 6-6 6"/>'
 };
@@ -49,11 +50,12 @@ function writeLocal(key, value) {
   try { localStorage.setItem(key, JSON.stringify(value)); } catch {}
 }
 
-let catalog, programs, program, plan, graphPosition, toastTimer;
+let catalog, programs, program, plan, graphView, toastTimer;
 let settings = {};
 let overlay = null;
 const saved = readLocal(storageKey, {});
 let sidebarOpen = readLocal(storageKey + '-sidebar', window.innerWidth >= 850);
+let fallbackFullscreen = false;
 
 function message(text) {
   const target = dialog.open ? detail.querySelector('.dialog-status') : document.querySelector('#toast');
@@ -63,7 +65,7 @@ function message(text) {
   if (!dialog.open) toastTimer = setTimeout(() => target.textContent = '', 3500);
 }
 function refresh(keepPosition = true) {
-  const previous = keepPosition ? graphPosition?.() : null;
+  const previous = keepPosition ? graphView?.snapshot() : null;
   saved[program.id] = settings;
   writeLocal(storageKey, saved);
   plan = makePlanner(catalog, program, settings);
@@ -90,6 +92,35 @@ function updateSidebarVisibility() {
   button?.setAttribute('aria-expanded', String(sidebarOpen));
   if (!sidebarOpen && document.activeElement === document.body) button?.focus();
 }
+function syncFullscreen() {
+  const active = fallbackFullscreen || document.fullscreenElement === map;
+  if (document.body.classList.contains('graph-only') === active) return;
+  document.body.classList.toggle('graph-only', active);
+  graphView?.fit();
+  map.querySelector(active ? '.viewport' : '#fullscreen')?.focus({preventScroll:true});
+}
+async function enterFullscreen() {
+  try {
+    if (!map.requestFullscreen) throw new Error('Fullscreen unavailable');
+    await map.requestFullscreen();
+  } catch {
+    fallbackFullscreen = true;
+  }
+  syncFullscreen();
+}
+async function exitFullscreen() {
+  if (document.fullscreenElement === map) await document.exitFullscreen();
+  fallbackFullscreen = false;
+  syncFullscreen();
+}
+document.addEventListener('fullscreenchange', syncFullscreen);
+new ResizeObserver(() => graphView?.resize()).observe(map);
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && fallbackFullscreen && !dialog.open) {
+    event.preventDefault();
+    exitFullscreen();
+  }
+});
 function render(previous) {
   const groups = ['Major', 'Minor'].map(type => '<optgroup label="' + type + 's">' +
     programs.filter(p => p.type === type).map(p => '<option value="' + p.id + '" ' +
@@ -98,8 +129,8 @@ function render(previous) {
     program.variants.map(v => '<option value="' + esc(v.id) + '" ' + (v.id === plan.variant.id ? 'selected' : '') + '>' + esc(v.label) + '</option>').join('') + '</select>' : '';
   controls.innerHTML = '<label class="sr-only" for="program">Academic program</label><select class="control program-select" id="program">' + groups + '</select>' + variant;
   renderSidebar();
-  graphPosition = drawGraph(map, plan, { esc, svg, range, sidebarOpen, toggleSidebar, openCourse }, previous);
   updateSidebarVisibility();
+  graphView = drawGraph(map, plan, { esc, svg, range, sidebarOpen, toggleSidebar, openCourse, enterFullscreen, exitFullscreen }, previous);
 }
 function renderSidebar() {
   const choices = plan.groups.filter(group => !plan.fixed(group));

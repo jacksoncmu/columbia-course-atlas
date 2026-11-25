@@ -72,6 +72,11 @@ main {position: relative; flex: 1; min-height: 0; display: flex; flex-direction:
 .dot.choice {background: var(--choice)}
 .dot.prerequisite {background: var(--prereq)}
 .dash {width: 15px; border-top: 2px dashed #5e8783}
+#exit-fullscreen {display: none}
+.graph-only .mast,.graph-only .sidebar,.graph-only .canvas-tools,.graph-only .legend,.graph-only .level,.graph-only #toast {display: none}
+.graph-only #map {position: fixed; inset: 0; z-index: 4}
+.graph-only #exit-fullscreen {display: inline-flex; position: absolute; top: 12px; right: 12px; z-index: 3; opacity: 0; pointer-events: none}
+.graph-only #exit-fullscreen:focus-visible {opacity: 1; pointer-events: auto}
 .sidebar {width: 258px; flex: 0 0 auto; padding: 18px 16px 23px; min-height: 0; overflow-y: auto; background: #fff; border-right: 1px solid var(--line); z-index: 2}
 .sidebar-heading {display: flex; justify-content: space-between; align-items: center; gap: 7px}
 .sidebar-heading h2 {font: 700 1.28rem/1.2 var(--serif); color: var(--navy); letter-spacing: -.025em}
@@ -120,7 +125,7 @@ dialog::backdrop {background: #19314e2b}
 .choice-editor summary span {float: right; font-size: .78rem; color: #675779; margin-left: 5px}
 .choice-editor .editor {padding: 10px 12px; border-top: 1px solid #e1d7eb}
 .editor > .quiet {margin: 5px 0 9px}
-.option-list {padding: 0 3px 0 0; max-height: 42vh; min-height: 36px; overflow: auto; list-style: none; margin: 8px 0}
+.option-list {padding: 0 3px 0 0; max-height: max(14rem,calc(100dvh - 275px)); min-height: 36px; overflow: auto; list-style: none; margin: 8px 0}
 .option-row {display: flex; gap: 9px; justify-content: space-between; align-items: center; border-top: 1px solid #e1e8ef; padding: 8px 0}
 .option-title {font-size: .88rem; font-weight: 650; line-height: 1.35}
 .option-row .quiet {font-size: .77rem}
@@ -143,4 +148,7 @@ dialog::backdrop {background: #19314e2b}
   .program-select,.variant-select {font-size: .75rem; padding-top: 4px; padding-bottom: 4px}
   .canvas-tools {left: 10px; right: 12px; top: 10px}
   .legend {left: 10px; bottom: 10px; gap: 5px 8px}
+}
+@media (max-width: 420px) {
+  #fullscreen span {display: none}
 }
