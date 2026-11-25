@@ -3,9 +3,10 @@
     "id": "economics",
     "name": "Economics",
     "type": "Major",
-    "source": "https://bulletin.columbia.edu/columbia-college/departments-instruction/economics/#requirementstext",
+    "source": "https://bulletin.columbia.edu/general-studies/majors-concentrations/economics/#requirementstext",
     "publishedCredits": "44 points minimum",
     "notes": [
+      "These are the 2026–27 School of General Studies requirements. The Economics Department enforces prerequisite sequencing for major credit.",
       "The 44-point minimum comprises 35 economics points, six mathematics points and three statistics points. Up to four of the nine economics lecture courses may count through approved outside credit.",
       "Finish the economics core by spring of junior year. Taking a core course in senior fall requires written permission. The department requires C− or above in courses for the major and accepts a P in Principles of Economics.",
       "At least five economics lecture courses and the senior seminar must be taken in the Columbia Economics Department. ECON UN3025 and UN3265 count as Columbia courses, including when taught by Barnard faculty. Transfer, placement and exam credit depend on department approval and school records."
@@ -974,9 +975,10 @@
     "id": "financial-economics",
     "name": "Financial Economics",
     "type": "Major",
-    "source": "https://bulletin.columbia.edu/columbia-college/departments-instruction/economics/#requirementstext",
+    "source": "https://bulletin.columbia.edu/general-studies/majors-concentrations/financial-economics/#requirementstext",
     "publishedCredits": "50 points minimum",
     "notes": [
+      "These are the 2026–27 School of General Studies requirements. The Economics Department enforces prerequisite sequencing for major credit.",
       "The bulletin specifies 26 economics points, six mathematics points, three statistics points, three business points and 12 prescribed elective points. Complete the finance core by senior fall and take UN3025 or GU4280 at Columbia.",
       "Students also in the Business Management concentration must add an elective from either program’s prescribed list. Up to three outside economics lecture courses may apply.",
       "Finish the economics core by spring of junior year. Taking a core course in senior fall requires written permission. The department requires C− or above in courses for the major and accepts a P in Principles of Economics.",
@@ -1732,9 +1734,10 @@
     "id": "economics-statistics",
     "name": "Economics–Statistics",
     "type": "Major",
-    "source": "https://bulletin.columbia.edu/columbia-college/departments-instruction/economics/#requirementstext",
+    "source": "https://bulletin.columbia.edu/general-studies/majors-concentrations/economics-statistics/#requirementstext",
     "publishedCredits": "59 points",
     "notes": [
+      "These are the 2026–27 School of General Studies requirements. The Economics Department enforces prerequisite sequencing for major credit.",
       "The Economics Department lists 29 economics points, 15 statistics points, 12 mathematics points and three computing points. Its standard sequence totals 59 points. The honors mathematics alternative changes the individual courses and their point total.",
       "Up to two economics lecture courses may come from outside the department. The joint major specifies the econometrics seminar and the department also accepts its full-year honors thesis.",
       "Finish the economics core by spring of junior year. Taking a core course in senior fall requires written permission. The department requires C− or above in courses for the major and accepts a P in Principles of Economics.",
@@ -2616,10 +2619,6 @@
       ]
     ],
     "sources": [
-      {
-        "label": "Statistics Department requirements",
-        "url": "https://bulletin.columbia.edu/columbia-college/departments-instruction/statistics/#requirementstext"
-      },
       {
         "label": "Economics–Statistics checklist",
         "url": "https://econ.columbia.edu/wp-content/uploads/sites/18/2026/02/Econ-Stat-2026.pdf"

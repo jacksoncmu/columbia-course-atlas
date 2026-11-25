@@ -17,10 +17,6 @@ from bs4 import BeautifulSoup
 COURSE = re.compile(r"\b[A-Z]{3,5} (?:[A-Z]{1,3})\d{4}\b")
 
 
-def normalize(text):
-    return " ".join(text.split())
-
-
 def download(code, directory):
     path = directory / (code + ".html")
     if not path.exists():
@@ -40,11 +36,11 @@ def download(code, directory):
                 time.sleep(1 + attempt)
         time.sleep(0.15)
     page = BeautifulSoup(path.read_bytes(), "html.parser")
-    block = page.select_one(".courseblockdesc")
-    if not block:
+    course = page.select_one("article.search-courseresult")
+    if not course:
         return set()
     found = set()
-    for span in block.select(".prereq,.coreq"):
+    for span in course.select(".prereq,.coreq"):
         for link in span.select("a[href*='?P=']"):
             found.update(COURSE.findall(unquote(link["href"].split("?P=")[-1])))
     return found

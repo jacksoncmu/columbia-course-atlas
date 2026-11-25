@@ -29,14 +29,6 @@ def extract_label(text,kind):
  m=re.search(r'\b'+kind+r'[\s-]?requisites?\s*:\s*',text,re.I)
  if not m:return ''
  return re.split(r'(?<=[.!?])\s+(?=[A-Z])|(?:Pre|Co)[ -]?requisite[s]?:',text[m.end():],maxsplit=1,flags=re.I)[0][:420].strip()
-def abbrev(s):
- # Keep short catalog excerpts with a direct link to the full description.
- w=s.split()
- if len(w)>24:
-  k=' '.join(w[:24])
-  m=re.search(r'[.!?](?:\s|$)',k)
-  return k[:m.start()+1] if m and m.start()>55 else k.rstrip(',.;:')+'…'
- return s
 def extract(code,file):
  page=Soup(file.read_bytes(),'html.parser')
  a=next((x for x in page.select('article.search-courseresult') if x.h3 and clean(x.h3.get_text(' ',strip=True)).startswith(code+' ')),None)
@@ -51,12 +43,8 @@ def extract(code,file):
   tags=list(dict.fromkeys(tidy(t.get_text(' ',strip=True)) for t in a.select(css))) if a else []
   d[key]=re.sub(r'^(?:Pre|Co)[ -]?requisites?\s*:\s*','',tags[0],flags=re.I) if tags else extract_label(content,kind)
  for t in (a.select('.prereq,.coreq,.testdesc') if a else []): t.decompose()
- paragraphs=[clean(x.get_text(' ',strip=True)) for t in ds for x in (t.select('p.closed') or [t])]
- desc=next((p for p in paragraphs if len(p)>5),'')
- # Remove repeated registration formulas before the actual course description.
- if re.match(r'^(?:Pre|Co)[ -]?requisites?:',desc,re.I):
-  candidates=re.split(r'(?<=[.!?])\s+(?=[A-Z])|\s+(?=(?:This course |The course |An introduction |Introduction to |How a market |Covers |Topics include |Designed for |Vectors in dimensions |Matrices, |A calculus-based |Theory and practice |Course Overview:))',desc)
-  desc=next((v for v in candidates if len(v)>24 and not re.match(r'^(?:Pre|Co)[ -]?requisit|^Students without|^Students may|^At least|^The second term|^See ',v,re.I)),desc)
+ paragraphs=[tidy(x.get_text(' ',strip=True)) for t in ds for x in (t.select('p.closed') or [t])]
+ desc='\n\n'.join(dict.fromkeys(p for p in paragraphs if len(p)>5))
  if not desc or not d['credits']:
   supp=sis.get(code,{})
   if supp:
@@ -64,10 +52,10 @@ def extract(code,file):
    d['sourceExtra']=supp['url']
    if not hdr and len(headings)>1:d['title']=titlecase(headings[1])
    if not d['credits'] and (cm:=re.search(r'(\d+(?:\.\d+)?)(?:\s*[-–]\s*(\d+(?:\.\d+)?))?',rows.get('Points',''))):d['credits']=[float(cm[1]),float(cm[2] or cm[1])]
-   desc=desc or rows.get('Course Description','')
+   desc=desc or tidy(rows.get('Course Description',''))
    for kind,k in [('Pre','preText'),('Co','coText')]:d[k]=d[k] or extract_label(desc,kind) or rows.get(kind+'requisites','')
  if not desc:d['note']='The individual listing gives no course description or preparation details. Check the linked source or section before selecting it.'
- d['description']=abbrev(tidy(desc))
+ d['description']=desc
  if code in syllabi:d['syllabus']=syllabi[code]
  return d
 for f in sorted((root/'pages').glob('*.html')):courses[f.stem]=extract(f.stem,f)
@@ -104,7 +92,7 @@ for c,d in courses.items():
  o=overrides.get(c,{})
  for k,raw in [('pre','preText'),('co','coText')]:d[k]=rule(o[k] if k in o else parse(d[raw],c))
  for k,v in o.items():
-  if k not in ['pre','co']:d[k]=v
+  if k not in ['pre','co'] and (k!='description' or not d['description']):d[k]=v
  if d.get('description') and d.get('note','').startswith('The individual listing gives no'):d.pop('note')
  # Remove empty fields except dependency arrays.
  for k in list(d):

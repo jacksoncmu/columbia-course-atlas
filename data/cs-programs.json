@@ -3,15 +3,15 @@
     "id": "computer-science",
     "name": "Computer Science",
     "type": "Major",
-    "source": "https://bulletin.columbia.edu/columbia-college/departments-instruction/computer-science/#requirementstext",
+    "source": "https://bulletin.columbia.edu/general-studies/majors-concentrations/computer-science/#requirementstext",
     "sources": [
       {
         "label": "CS Department undergraduate guide",
         "url": "https://www.cs.columbia.edu/education/undergraduate/"
       },
       {
-        "label": "CS major quick guide",
-        "url": "https://www.cs.columbia.edu/wp-content/uploads/2023/07/BA.pdf"
+        "label": "Department Quick Guide for the CS BA (CC and GS)",
+        "url": "https://www.cs.columbia.edu/wp-content/uploads/2024/12/BA.pdf"
       },
       {
         "label": "CS Department undergraduate FAQ",
@@ -24,13 +24,20 @@
       {
         "label": "Barnard CS course catalog",
         "url": "https://catalog.barnard.edu/barnard-college/courses-instruction/computer-science/"
+      },
+      {
+        "label": "General Studies degree policies",
+        "url": "https://bulletin.columbia.edu/general-studies/degree-fulfillment/"
       }
     ],
     "notes": [
-      "For Columbia College students declaring in Spring 2024 or later. Students who declared earlier should check their cohort’s requirements.",
+      "The department’s current Computer Science BA curriculum applies to General Studies students who declared in Spring 2024 or later.",
       "ENGI E1006 or COMS W1002 is optional introductory preparation.",
       "Up to 6 points of supervised projects or thesis may count. Credit for this purpose requires at least 3 points in a single enrollment.",
-      "The department restricts overlap among equivalent data structures, linear algebra, probability, and machine learning courses. Unused area foundation courses can count as electives if they satisfy the elective rule."
+      "The department restricts overlap among equivalent data structures, linear algebra, probability, and machine learning courses. Unused area foundation courses can count as electives if they satisfy the elective rule.",
+      "Up to four transfer courses may count toward the major. Transfer courses in calculus, linear algebra, and probability or statistics are outside that limit.",
+      "At most one course of up to four points with a D grade may count. General Studies degree policies govern double counting.",
+      "The department lists CSEE W4119 and CSOR W4231 for area foundations. The General Studies Bulletin shows COMS W4119 and CSOR E4231 for those same courses."
     ],
     "publishedCredits": "44–56 points across the four published component ranges",
     "conflicts": [
@@ -51,21 +58,10 @@
         "COMS BC3213"
       ],
       [
-        "IEOR E3658",
-        "STAT UN1201",
-        "STAT GU4001",
-        "MATH UN2015"
-      ],
-      [
         "MATH UN2015",
         "MATH UN2010",
         "APMA E3101",
         "COMS W3251"
-      ],
-      [
-        "COMS W4771",
-        "COMS W4721",
-        "STAT GU4241"
       ],
       [
         "COMS W4170",
@@ -78,6 +74,17 @@
       [
         "COMS BC3705",
         "COMS W4705"
+      ],
+      [
+        "IEOR E3658",
+        "STAT UN1201",
+        "STAT GU4001",
+        "MATH UN2015"
+      ],
+      [
+        "COMS W4771",
+        "COMS W4721",
+        "STAT GU4241"
       ]
     ],
     "creditCaps": [
@@ -320,7 +327,7 @@
               },
               {
                 "courses": [
-                  "COMS W4119"
+                  "CSEE W4119"
                 ]
               },
               {
@@ -355,7 +362,7 @@
               },
               {
                 "courses": [
-                  "CSOR E4231"
+                  "CSOR W4231"
                 ]
               },
               {
@@ -433,7 +440,8 @@
               {
                 "courses": [
                   "COMS BC3099"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
@@ -463,82 +471,98 @@
               {
                 "courses": [
                   "COMS BC3997"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6111"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6113"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6118"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6156"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6173"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6178"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6184"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6185"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6232"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6261"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6732"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6735"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6900"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6901"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6998"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
@@ -573,12 +597,14 @@
               {
                 "courses": [
                   "COMS W3902"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS W3998"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
@@ -607,7 +633,7 @@
               },
               {
                 "courses": [
-                  "COMS W4119"
+                  "CSEE W4119"
                 ]
               },
               {
@@ -833,7 +859,8 @@
               {
                 "courses": [
                   "COMS W4901"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
@@ -843,27 +870,32 @@
               {
                 "courses": [
                   "COMS W4995"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS W4996"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS W6298"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS W6706"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS W6975"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
@@ -873,12 +905,14 @@
               {
                 "courses": [
                   "CSEE E6863"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "CSEE E6868"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
@@ -913,11 +947,12 @@
               {
                 "courses": [
                   "CSEE W6180"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
-                  "CSOR E4231"
+                  "CSOR W4231"
                 ]
               },
               {
@@ -948,92 +983,110 @@
               {
                 "courses": [
                   "EECS E6321"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6690"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6691"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6692"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6693"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6694"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6699"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6720"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6791"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6792"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6891"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6892"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6893"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6894"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6895"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6896"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6897"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6898"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
@@ -1043,7 +1096,8 @@
               {
                 "courses": [
                   "MECS E6616"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
@@ -1087,15 +1141,15 @@
     "id": "computer-science-minor",
     "name": "Computer Science",
     "type": "Minor",
-    "source": "https://bulletin.columbia.edu/columbia-college/departments-instruction/computer-science/#requirementstext",
+    "source": "https://bulletin.columbia.edu/general-studies/majors-concentrations/computer-science/#requirementstext",
     "sources": [
       {
         "label": "CS Department undergraduate guide",
         "url": "https://www.cs.columbia.edu/education/undergraduate/"
       },
       {
-        "label": "CS major quick guide",
-        "url": "https://www.cs.columbia.edu/wp-content/uploads/2023/07/BA.pdf"
+        "label": "Department Quick Guide for the CS BA (CC and GS)",
+        "url": "https://www.cs.columbia.edu/wp-content/uploads/2024/12/BA.pdf"
       },
       {
         "label": "CS Department undergraduate FAQ",
@@ -1108,11 +1162,18 @@
       {
         "label": "Barnard CS course catalog",
         "url": "https://catalog.barnard.edu/barnard-college/courses-instruction/computer-science/"
+      },
+      {
+        "label": "General Studies degree policies",
+        "url": "https://bulletin.columbia.edu/general-studies/degree-fulfillment/"
       }
     ],
     "notes": [
+      "General Studies students who matriculated in Fall 2024 or later may declare a minor. The requirements follow the current School of General Studies Bulletin.",
       "Six courses under the curriculum in effect since Fall 2024.",
-      "Students pursuing the CS major or minor, Information Science, Data Science, CS–Mathematics, or Computational Biology are ineligible for the AI minor."
+      "Students pursuing the CS major or minor, Information Science, Data Science, CS–Mathematics, or Computational Biology are ineligible for the AI minor.",
+      "Up to two transfer courses may count, including a transferred linear algebra or probability and statistics course. At most one course of up to four points with a D grade may count.",
+      "A score of 4 or 5 on AP Computer Science A earns three points and can exempt students from COMS W1004."
     ],
     "publishedCredits": "6 courses, at least 19 points",
     "conflicts": [
@@ -1246,7 +1307,8 @@
               {
                 "courses": [
                   "COMS BC3099"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
@@ -1276,82 +1338,98 @@
               {
                 "courses": [
                   "COMS BC3997"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6111"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6113"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6118"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6156"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6173"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6178"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6184"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6185"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6232"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6261"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6732"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6735"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6900"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6901"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6998"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
@@ -1396,12 +1474,14 @@
               {
                 "courses": [
                   "COMS W3902"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS W3998"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
@@ -1430,7 +1510,7 @@
               },
               {
                 "courses": [
-                  "COMS W4119"
+                  "CSEE W4119"
                 ]
               },
               {
@@ -1656,7 +1736,8 @@
               {
                 "courses": [
                   "COMS W4901"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
@@ -1666,27 +1747,32 @@
               {
                 "courses": [
                   "COMS W4995"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS W4996"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS W6298"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS W6706"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS W6975"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
@@ -1696,12 +1782,14 @@
               {
                 "courses": [
                   "CSEE E6863"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "CSEE E6868"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
@@ -1741,11 +1829,12 @@
               {
                 "courses": [
                   "CSEE W6180"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
-                  "CSOR E4231"
+                  "CSOR W4231"
                 ]
               },
               {
@@ -1776,92 +1865,110 @@
               {
                 "courses": [
                   "EECS E6321"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6690"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6691"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6692"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6693"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6694"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6699"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6720"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6791"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6792"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6891"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6892"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6893"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6894"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6895"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6896"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6897"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6898"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
@@ -1871,7 +1978,8 @@
               {
                 "courses": [
                   "MECS E6616"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
@@ -1930,7 +2038,8 @@
               {
                 "courses": [
                   "COMS BC3099"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
@@ -1960,82 +2069,98 @@
               {
                 "courses": [
                   "COMS BC3997"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6111"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6113"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6118"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6156"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6173"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6178"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6184"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6185"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6232"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6261"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6732"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6735"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6900"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6901"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6998"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
@@ -2080,12 +2205,14 @@
               {
                 "courses": [
                   "COMS W3902"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS W3998"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
@@ -2114,7 +2241,7 @@
               },
               {
                 "courses": [
-                  "COMS W4119"
+                  "CSEE W4119"
                 ]
               },
               {
@@ -2340,7 +2467,8 @@
               {
                 "courses": [
                   "COMS W4901"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
@@ -2350,27 +2478,32 @@
               {
                 "courses": [
                   "COMS W4995"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS W4996"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS W6298"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS W6706"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS W6975"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
@@ -2380,12 +2513,14 @@
               {
                 "courses": [
                   "CSEE E6863"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "CSEE E6868"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
@@ -2425,11 +2560,12 @@
               {
                 "courses": [
                   "CSEE W6180"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
-                  "CSOR E4231"
+                  "CSOR W4231"
                 ]
               },
               {
@@ -2460,92 +2596,110 @@
               {
                 "courses": [
                   "EECS E6321"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6690"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6691"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6692"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6693"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6694"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6699"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6720"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6791"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6792"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6891"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6892"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6893"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6894"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6895"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6896"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6897"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "EECS E6898"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
@@ -2555,7 +2709,8 @@
               {
                 "courses": [
                   "MECS E6616"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
@@ -2639,14 +2794,23 @@
     "id": "artificial-intelligence-minor",
     "name": "Artificial Intelligence",
     "type": "Minor",
-    "source": "https://bulletin.columbia.edu/columbia-college/departments-instruction/computer-science/#requirementstext",
+    "source": "https://bulletin.columbia.edu/general-studies/majors-concentrations/artificial-intelligence/#requirementstext",
     "sources": [
       {
         "label": "CS Department undergraduate guide",
         "url": "https://www.cs.columbia.edu/education/undergraduate/"
+      },
+      {
+        "label": "General Studies degree policies",
+        "url": "https://bulletin.columbia.edu/general-studies/degree-fulfillment/"
+      },
+      {
+        "label": "General Studies Computer Science Bulletin",
+        "url": "https://bulletin.columbia.edu/general-studies/majors-concentrations/computer-science/#requirementstext"
       }
     ],
     "notes": [
+      "General Studies students who matriculated in Fall 2024 or later may declare a minor. The requirements follow the current School of General Studies Bulletin.",
       "Students pursuing the CS major or minor, Information Science, Data Science, CS–Mathematics, or Computational Biology are ineligible for the AI minor.",
       "The department lists COMS W2132 or IEOR E2000 as a single intermediate-computing requirement. The math substitution adds a seventh course."
     ],
@@ -3055,12 +3219,14 @@
               {
                 "courses": [
                   "COMS W4995"
-                ]
+                ],
+                "approval": true
               },
               {
                 "courses": [
                   "COMS E6998"
-                ]
+                ],
+                "approval": true
               }
             ],
             "note": "Along with the named courses, any COMS 47xx course and a relevant section of COMS W4995 or COMS E6998 may count. Choose a different course from the AI and ethics requirements. Verify the topic of a selected section with CS Advising."

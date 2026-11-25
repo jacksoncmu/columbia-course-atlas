@@ -1,0 +1,346 @@
+{
+  "APMA E2000": {
+    "title": "Multivariable Calculus for Engineering and Applied Science"
+  },
+  "APMA E2101": {
+    "title": "Introduction to Applied Mathematics"
+  },
+  "APMA E3101": {
+    "title": "Applied Mathematics I: Linear Algebra"
+  },
+  "BIOL C2005": {
+    "title": "Introductory Biology I: Biochemistry, Genetics, and Molecular Biology"
+  },
+  "BIOL UN2005": {
+    "title": "Introductory Biology I: Biochemistry, Genetics, and Molecular Biology"
+  },
+  "BIOL UN3004": {
+    "title": "Neurobiology I: Cellular and Molecular Neurobiology",
+    "pre": "BIOL UN2005;BIOL UN2006",
+    "sourceExtra": "https://biology.columbia.edu/sites/biology.columbia.edu/files/content/Syllabi/UN3004%20Neurobiology%20I%20-%20001%20-%20F23.pdf",
+    "note": "One year of biology or equivalent is required. A physics course is recommended."
+  },
+  "BIOT GU4180": {
+    "title": "Entrepreneurship in Biotechnology"
+  },
+  "CIEN E4253": {
+    "title": "Computational Solid Mechanics with Artificial Intelligence"
+  },
+  "COMS W1005": {
+    "title": "Introduction to Computer Science and Programming in MATLAB"
+  },
+  "COMS W2702": {
+    "title": "Artificial Intelligence in Context"
+  },
+  "COMS W3137": {
+    "title": "Honors Data Structures and Algorithms"
+  },
+  "COMS W3998": {
+    "title": "Undergraduate Projects in Computer Science"
+  },
+  "COMS W4113": {
+    "title": "Fundamentals of Large-Scale Distributed Systems"
+  },
+  "COMS W4115": {
+    "title": "Programming Languages and Translators"
+  },
+  "COMS W4165": {
+    "title": "Computational Techniques for Pixel Processing"
+  },
+  "COMS W4172": {
+    "title": "3D User Interfaces and Augmented Reality"
+  },
+  "COMS W4186": {
+    "title": "Malware Analysis and Reverse Engineering"
+  },
+  "COMS W4236": {
+    "title": "Introduction to Computational Complexity"
+  },
+  "COMS W4241": {
+    "title": "Numerical Algorithms and Complexity"
+  },
+  "COMS W4252": {
+    "title": "Introduction to Computational Learning Theory"
+  },
+  "COMS W4261": {
+    "title": "Introduction to Cryptography"
+  },
+  "COMS W4281": {
+    "title": "Introduction to Quantum Computing"
+  },
+  "COMS W4460": {
+    "title": "Principles of Innovation and Entrepreneurship"
+  },
+  "COMS W4710": {
+    "title": "Ethical and Responsible Artificial Intelligence"
+  },
+  "COMS W4721": {
+    "title": "Machine Learning for Data Science"
+  },
+  "CSBS W3761": {
+    "title": "Laboratory in Computational Biology"
+  },
+  "CSEE E6863": {
+    "title": "Formal Verification of Hardware and Software Systems"
+  },
+  "CSEE W3827": {
+    "title": "Fundamentals of Computer Systems"
+  },
+  "CSPH GU4801": {
+    "title": "Mathematical Logic I"
+  },
+  "ECBM E4040": {
+    "title": "Neural Networks and Deep Learning"
+  },
+  "ECBM E4090": {
+    "title": "Brain–Computer Interfaces Laboratory"
+  },
+  "ECON BC1007": {
+    "title": "Mathematical Methods for Economics"
+  },
+  "ECON BC3029": {
+    "title": "Empirical Approaches to Development Economics"
+  },
+  "ECON BC3041": {
+    "title": "Theoretical Foundations of Political Economy"
+  },
+  "ECON GU4020": {
+    "title": "Economics of Uncertainty and Information"
+  },
+  "ECON GU4301": {
+    "title": "Economic Growth and Development I"
+  },
+  "ECON GU4438": {
+    "title": "Economics of Race in the United States"
+  },
+  "ECON GU4850": {
+    "title": "Cognitive Mechanisms and Economic Behavior"
+  },
+  "ECON UN1155": {
+    "title": "Principles of Economics Discussion"
+  },
+  "ECON UN3952": {
+    "title": "Macroeconomics and the Formation of Expectations"
+  },
+  "EECS E4321": {
+    "title": "Digital Very-Large-Scale Integration Circuits"
+  },
+  "EECS E6720": {
+    "title": "Bayesian Models for Machine Learning"
+  },
+  "ENGI E1006": {
+    "title": "Introduction to Computing for Engineers and Applied Scientists"
+  },
+  "ENME E3332": {
+    "title": "A First Course in Finite Elements"
+  },
+  "IEOR E4150": {
+    "title": "Introduction to Probability and Statistics"
+  },
+  "IEOR E4212": {
+    "title": "Data Analytics and Machine Learning for Operations Research"
+  },
+  "IEOR E4700": {
+    "title": "Introduction to Financial Engineering"
+  },
+  "MATH GR5010": {
+    "title": "Introduction to the Mathematics of Finance"
+  },
+  "MATH GU4041": {
+    "title": "Introduction to Modern Algebra I"
+  },
+  "MATH GU4042": {
+    "title": "Introduction to Modern Algebra II"
+  },
+  "MATH GU4044": {
+    "title": "Representations of Finite Groups"
+  },
+  "MATH GU4053": {
+    "title": "Introduction to Algebraic Topology"
+  },
+  "MATH GU4061": {
+    "title": "Introduction to Modern Analysis I"
+  },
+  "MATH GU4062": {
+    "title": "Introduction to Modern Analysis II"
+  },
+  "MATH GU4081": {
+    "title": "Introduction to Differentiable Manifolds"
+  },
+  "MATH GU4391": {
+    "title": "Introduction to Quantum Mechanics I"
+  },
+  "MATH GU4392": {
+    "title": "Introduction to Quantum Mechanics II"
+  },
+  "MATH UN1205": {
+    "title": "Accelerated Multivariable Calculus"
+  },
+  "MATH UN3050": {
+    "title": "Discrete-Time Models in Finance"
+  },
+  "MECS E4510": {
+    "title": "Evolutionary Computation and Design Automation"
+  },
+  "PHIL UN2211": {
+    "title": "History of Philosophy II Discussion",
+    "description": "Required zero-point discussion section for History of Philosophy II."
+  },
+  "PHIL UN3413": {
+    "title": "Symbolic Logic Discussion"
+  },
+  "PHIL UN3711": {
+    "title": "Ethics Discussion"
+  },
+  "PHIL UN3963": {
+    "title": "Epistemology Discussion"
+  },
+  "POLS GU4110": {
+    "title": "Recent Continental Political Thought"
+  },
+  "POLS GU4132": {
+    "title": "Classical and Medieval Political Thought"
+  },
+  "POLS GU4280": {
+    "title": "Rationalizing the World: American Social Science"
+  },
+  "POLS GU4434": {
+    "title": "Ethnic Politics Across Post-Soviet Eurasia"
+  },
+  "POLS GU4700": {
+    "title": "Mathematics and Statistics for Political Science"
+  },
+  "POLS GU4710": {
+    "title": "Principles of Quantitative Political Research I"
+  },
+  "POLS GU4712": {
+    "title": "Principles of Quantitative Political Research II"
+  },
+  "POLS GU4720": {
+    "title": "Quantitative Methods I: Applied Regression and Causal Inference"
+  },
+  "POLS GU4722": {
+    "title": "Quantitative Methods II: Statistical Theory and Causal Inference"
+  },
+  "POLS GU4724": {
+    "title": "Quantitative Methods III: Experimental Methods"
+  },
+  "POLS GU4726": {
+    "title": "Quantitative Methods IV: Topics in Methods"
+  },
+  "POLS GU4730": {
+    "title": "Game Theory and Political Theory"
+  },
+  "POLS GU4814": {
+    "title": "Global Energy: Security and Geopolitics"
+  },
+  "POLS GU4845": {
+    "title": "National Security Strategies of the Middle East: A Comparative Perspective"
+  },
+  "POLS UN3220": {
+    "title": "Logic and Paradox in Social Choice"
+  },
+  "POLS UN3225": {
+    "title": "American Constitutional History"
+  },
+  "POLS UN3255": {
+    "title": "Race and the United States Carceral System"
+  },
+  "POLS UN3619": {
+    "title": "Nationalism and Contemporary World Politics"
+  },
+  "POLS UN3630": {
+    "title": "Politics of International Economic Relations"
+  },
+  "POLS UN3911": {
+    "title": "Seminar in Political Theory"
+  },
+  "SIEO W3600": {
+    "title": "Introduction to Probability and Statistics"
+  },
+  "SIEO W4150": {
+    "title": "Introduction to Probability and Statistics"
+  },
+  "STAT GU4207": {
+    "title": "Elementary Stochastic Processes"
+  },
+  "STAT GU4223": {
+    "title": "Multivariate Statistical Inference"
+  },
+  "STAT GU4263": {
+    "title": "Statistical Inference and Time-Series Modeling"
+  },
+  "STAT GU4264": {
+    "title": "Stochastic Processes and Applications I"
+  },
+  "STAT UN1001": {
+    "title": "Introduction to Statistical Reasoning"
+  },
+  "STAT UN1201": {
+    "title": "Calculus-Based Introduction to Statistics"
+  },
+  "STAT UN2103": {
+    "title": "Applied Linear Regression Analysis"
+  },
+  "STAT W3201": {
+    "title": "Mathematical Finance in Continuous Time"
+  },
+  "EECS E6690": {
+    "title": "Topics in Data-Driven Analysis and Computation"
+  },
+  "EECS E6691": {
+    "title": "Topics in Data-Driven Analysis and Computation"
+  },
+  "EECS E6692": {
+    "title": "Topics in Data-Driven Analysis and Computation"
+  },
+  "EECS E6693": {
+    "title": "Topics in Data-Driven Analysis and Computation"
+  },
+  "EECS E6694": {
+    "title": "Topics in Data-Driven Analysis and Computation"
+  },
+  "EECS E6699": {
+    "title": "Topics in Data-Driven Analysis and Computation"
+  },
+  "EECS E6891": {
+    "title": "Topics in Information Processing"
+  },
+  "EECS E6892": {
+    "title": "Topics in Information Processing"
+  },
+  "EECS E6893": {
+    "title": "Topics in Information Processing"
+  },
+  "EECS E6894": {
+    "title": "Topics in Information Processing"
+  },
+  "EECS E6895": {
+    "title": "Topics in Information Processing"
+  },
+  "EECS E6896": {
+    "title": "Topics in Information Processing"
+  },
+  "EECS E6897": {
+    "title": "Topics in Information Processing"
+  },
+  "EECS E6898": {
+    "title": "Topics in Information Processing"
+  },
+  "BIOL UN2006": {
+    "title": "Introductory Biology II: Cell Biology, Development, and Physiology"
+  },
+  "COMS W1007": {
+    "title": "Honors Introduction to Computer Science",
+    "description": "An honors-level introduction to computer science, intended primarily for students considering a major in computer science. Computer science as a science of abstraction. Creating models for reasoning about and solving problems. The basic elements of computers and computer programs. Implementing abstractions using data structures and algorithms. Taught in Java.",
+    "sourceExtra": "https://www.cs.columbia.edu/education/courses/course/COMSW1007-1/26350/"
+  },
+  "COMS W3134": {
+    "pre": "COMS W1004/COMS W1007",
+    "note": "The individual Bulletin card lists W1004 and Java knowledge. The archived W1007 is a Java-based honors introduction. Confirm equivalent Java preparation for your section."
+  },
+  "BUSI G6014": {
+    "title": "Statistics (legacy Business School course)",
+    "note": "Barnard lists this historical code among accepted statistics prerequisites. The current Columbia course listing does not provide a full title, points or description."
+  }
+}

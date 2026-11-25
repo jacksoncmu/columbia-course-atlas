@@ -3,15 +3,15 @@
     "id": "data-science",
     "name": "Data Science",
     "type": "Major",
-    "source": "https://bulletin.columbia.edu/columbia-college/departments-instruction/statistics/#requirementstext",
+    "source": "https://bulletin.columbia.edu/general-studies/majors-concentrations/computer-science-statistics/#requirementstext",
     "sources": [
       {
-        "label": "Statistics bulletin",
-        "url": "https://bulletin.columbia.edu/columbia-college/departments-instruction/statistics/#requirementstext"
+        "label": "General Studies Statistics requirements for Data Science",
+        "url": "https://bulletin.columbia.edu/general-studies/majors-concentrations/statistics/#requirementstext"
       },
       {
-        "label": "Computer Science bulletin",
-        "url": "https://bulletin.columbia.edu/columbia-college/departments-instruction/computer-science/#requirementstext"
+        "label": "General Studies Data Science requirements",
+        "url": "https://bulletin.columbia.edu/general-studies/majors-concentrations/computer-science-statistics/#requirementstext"
       },
       {
         "label": "Data Science department guide",
@@ -22,11 +22,12 @@
         "url": "https://doc.sis.columbia.edu/subj/COMS/"
       }
     ],
-    "publishedCredits": "54 points in the CS bulletin’s category totals; 18 courses on the standard mathematics path.",
+    "publishedCredits": "54 points across the General Studies category totals on the standard 18-course path.",
     "notes": [
-      "The departments require letter grades above D. The Statistics table includes the accelerated calculus option, the honors mathematics route, and COMS W4130. The current CS quick guide omits W4130, so confirm eligibility and availability before selecting it.",
-      "The CS bulletin assigns 15 points to prerequisites, 12 to statistics, 12 to computer science, and 15 to electives. The selected courses’ actual point values can yield a different total.",
-      "The introduction requirement accepts STAT UN1001 or UN1101 taken in spring 2018 or earlier in place of STAT UN1201."
+      "General Studies requires 18 courses on the standard mathematics path. Courses must receive a letter grade above D. The General Studies Statistics requirements also permit accelerated multivariable calculus or the complete Honors Mathematics A and B sequence.",
+      "The General Studies Data Science page lists 15 points of prerequisites, 12 of statistics, 12 of computer science and 15 of electives. Selected courses can carry different point values.",
+      "General Studies Statistics lists STAT GU4242. The parallel Computer Science table lists STAT Q4242 for Advanced Machine Learning. The planner uses the current GU listing. The General Studies Statistics table also lists COMS W4130. Confirm section availability and eligibility before choosing that course.",
+      "The department accepts STAT UN1001 or UN1101 from spring 2018 or earlier in place of STAT UN1201."
     ],
     "variants": [
       {
@@ -86,7 +87,7 @@
                     ]
                   }
                 ],
-                "note": "The Statistics table lists MATH UN2010. The CS department guide also accepts linear algebra offered by Applied Mathematics."
+                "note": "The General Studies Bulletin lists MATH UN2010. The Computer Science Department also accepts linear algebra from Applied Mathematics."
               }
             ]
           }
@@ -299,7 +300,9 @@
               {
                 "courses": [
                   "COMS W4130"
-                ]
+                ],
+                "approval": true,
+                "label": "Principles and Practice of Parallel Programming (check availability)"
               },
               {
                 "courses": [
@@ -406,17 +409,32 @@
           }
         ]
       }
+    ],
+    "conflicts": [
+      [
+        "COMS W4771",
+        "COMS W4721"
+      ],
+      [
+        "COMS W1004",
+        "COMS W1005"
+      ],
+      [
+        "COMS W3134",
+        "COMS W3136",
+        "COMS W3137"
+      ]
     ]
   },
   {
     "id": "information-science",
     "name": "Information Science",
     "type": "Major",
-    "source": "https://bulletin.columbia.edu/columbia-college/departments-instruction/computer-science/#requirementstext",
+    "source": "https://bulletin.columbia.edu/general-studies/majors-concentrations/information-science/#requirementstext",
     "sources": [
       {
-        "label": "Computer Science bulletin",
-        "url": "https://bulletin.columbia.edu/columbia-college/departments-instruction/computer-science/#requirementstext"
+        "label": "General Studies Information Science requirements",
+        "url": "https://bulletin.columbia.edu/general-studies/majors-concentrations/information-science/#requirementstext"
       },
       {
         "label": "Fall 2026 Information Science guide",
@@ -425,8 +443,9 @@
     ],
     "publishedCredits": "13 major courses plus Calculus I preparation. Each interdisciplinary elective carries at least 3 points.",
     "notes": [
-      "Applies to students declaring in fall 2026 or later. The department guide names Calculus I as prerequisite preparation and permits COMS W1007 as the introductory course. Earlier declarations use a different major.",
-      "The guide lists CSEE W4119 and CSOR W4231 for networking and algorithms. The College table uses alternate subject or division codes for the same titles."
+      "This curriculum applies to General Studies students declaring in fall 2026 or later. Earlier declarations follow the 33-point curriculum described in the General Studies Bulletin.",
+      "The current departmental guide for General Studies adds Calculus I as prerequisite preparation and explicitly permits either COMS W1004 or COMS W1007. Its networking and algorithms entries use CSEE W4119 and CSOR W4231. The General Studies table displays COMS W4119 and CSOR E4231 for those titles.",
+      "The three interdisciplinary electives must share a non-CS department. The Bulletin allows any department meeting its course-level and point criteria. The host department sets enrollment and course prerequisites."
     ],
     "sections": [
       {
@@ -1611,11 +1630,11 @@
     "id": "statistics",
     "name": "Statistics",
     "type": "Major",
-    "source": "https://bulletin.columbia.edu/columbia-college/departments-instruction/statistics/#requirementstext",
+    "source": "https://bulletin.columbia.edu/general-studies/majors-concentrations/statistics/#requirementstext",
     "sources": [
       {
-        "label": "Statistics bulletin",
-        "url": "https://bulletin.columbia.edu/columbia-college/departments-instruction/statistics/#requirementstext"
+        "label": "General Studies Statistics requirements",
+        "url": "https://bulletin.columbia.edu/general-studies/majors-concentrations/statistics/#requirementstext"
       },
       {
         "label": "Statistics department planning guidance",
@@ -1629,7 +1648,7 @@
     "publishedCredits": "14 courses on the standard mathematics path. The department specifies course counts.",
     "notes": [
       "Plan the major with the director of undergraduate studies. All major courses must receive a letter grade above D.",
-      "The College table and department planning guidance specify three electives. A conflicting sentence in the same bulletin table says five. The planner follows the 14-course total and the department guidance."
+      "The General Studies table and the Statistics Department specify three electives. A stray sentence in the same table mentions five. The 14-course total and the department guidance both use three."
     ],
     "sections": [
       {
@@ -1702,7 +1721,9 @@
               {
                 "courses": [
                   "STAT GU4282"
-                ]
+                ],
+                "approval": true,
+                "label": "Actuarial preparation substitution"
               }
             ],
             "note": "Students preparing for an actuarial career may substitute GU4282 for GU4205. GU4205 is the standard requirement."

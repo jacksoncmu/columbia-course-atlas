@@ -181,7 +181,7 @@
   "ECON GU4211": {
     "pre": "ECON UN3211;ECON UN3213;MATH UN2010",
     "co": "MATH UN2500/MATH GU4061;ECON GU4212",
-    "sourceExtra": "https://bulletin.columbia.edu/columbia-college/departments-instruction/economics/#requirementstext",
+    "sourceExtra": "https://bulletin.columbia.edu/general-studies/majors-concentrations/economics/#requirementstext",
     "syllabus": {
       "label": "Susan Elmes’s syllabus",
       "url": "https://qmss.columbia.edu/sites/qmss.columbia.edu/files/content/docs/AdvancedMicroeconomicsECON.pdf"
@@ -286,9 +286,10 @@
     "co": "ECON GU4411"
   },
   "ECON GU4413": {
-    "pre": "ECON UN3211;ECON UN3213;ECON UN3412",
-    "co": "MATH UN2010",
-    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+    "pre": "ECON UN3211;ECON UN3213;ECON UN3412;MATH UN2010",
+    "co": "",
+    "sourceExtra": "https://bulletin.columbia.edu/general-studies/majors-concentrations/economics/#requirementstext",
+    "note": "General Studies lists Linear Algebra as a prerequisite. The individual course card lists it as a corequisite. The graph follows the program’s required sequence."
   },
   "ECON GU4415": {
     "pre": "ECON UN3211;ECON UN3213",
@@ -366,7 +367,7 @@
   },
   "ECON GU4720": {
     "pre": "ECON UN3211;ECON UN3213",
-    "sourceExtra": "https://bulletin.columbia.edu/columbia-college/departments-instruction/economics/#requirementstext",
+    "sourceExtra": "https://bulletin.columbia.edu/general-studies/majors-concentrations/economics/#requirementstext",
     "note": "The department requires both intermediate theory courses for all Columbia 3000- and 4000-level electives."
   },
   "ECON GU4750": {
@@ -447,10 +448,11 @@
     "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
   },
   "ECON UN3211": {
-    "pre": "ECON UN1105;MATH UN1101/MATH UN1102/MATH UN1207;MATH UN1201/MATH UN1205/MATH UN1207",
-    "sourceExtra": "https://bulletin.columbia.edu/columbia-college/departments-instruction/economics/#requirementstext",
+    "pre": "ECON UN1105;MATH UN1201/MATH UN1205/MATH UN1207",
+    "sourceExtra": "https://bulletin.columbia.edu/general-studies/majors-concentrations/economics/#requirementstext",
     "title": "Intermediate Microeconomics",
-    "co": "ECON UN3212"
+    "co": "ECON UN3212",
+    "note": "The General Studies prerequisite table specifies Principles and Calculus III or accelerated multivariable calculus. The standard Calculus III route already requires Calculus I. The department also accepts the approved honors mathematics sequence."
   },
   "ECON UN3212": {
     "title": "Intermediate Microeconomics Discussion",
@@ -464,9 +466,9 @@
     "sourceExtra": "https://doc.sis.columbia.edu/subj/ECON/W3212-20271-001/"
   },
   "ECON UN3213": {
-    "pre": "ECON UN1105;MATH UN1101/MATH UN1102/MATH UN1207",
+    "pre": "ECON UN1105;MATH UN1101/MATH UN1207",
     "co": "MATH UN1201/MATH UN1205/MATH UN1207;ECON UN3214",
-    "sourceExtra": "https://bulletin.columbia.edu/columbia-college/departments-instruction/economics/#requirementstext",
+    "sourceExtra": "https://bulletin.columbia.edu/general-studies/majors-concentrations/economics/#requirementstext",
     "title": "Intermediate Macroeconomics",
     "syllabus": {
       "label": "Spring 2015 syllabus",
@@ -491,7 +493,7 @@
   "ECON UN3412": {
     "pre": "ECON UN3211/ECON UN3213;MATH UN1201/MATH UN1205/MATH UN1207;STAT UN1201/STAT GU4001/STAT GU4204",
     "co": "ECON UN3413",
-    "sourceExtra": "https://bulletin.columbia.edu/columbia-college/departments-instruction/economics/#requirementstext",
+    "sourceExtra": "https://bulletin.columbia.edu/general-studies/majors-concentrations/economics/#requirementstext",
     "note": "The departmental requirements accept higher-level statistics substitutions. The listing also mentions the older SIEO 3001 alternative. Complete the associated discussion section.",
     "title": "Introduction to Econometrics",
     "syllabus": {
@@ -516,7 +518,7 @@
   },
   "ECON UN3902": {
     "pre": "ECON UN3211;ECON UN3213",
-    "sourceExtra": "https://bulletin.columbia.edu/columbia-college/departments-instruction/economics/#requirementstext",
+    "sourceExtra": "https://bulletin.columbia.edu/general-studies/majors-concentrations/economics/#requirementstext",
     "note": "The department requires both intermediate theory courses for all Columbia 3000- and 4000-level electives."
   },
   "ECON UN3952": {

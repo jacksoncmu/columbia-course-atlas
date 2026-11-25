@@ -2,14 +2,19 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#192e4a"><meta name="description" content="Explore Columbia College majors and minors, trace course prerequisites, and customize your course plan.">
-<title>Course Atlas · Columbia College</title>
+<meta name="theme-color" content="#192e4a"><meta name="description" content="Explore Columbia General Studies majors and minors, trace course prerequisites, and customize your course plan.">
+<title>Course Atlas · Columbia General Studies</title>
 <link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
 </head><body>
-<header class="mast"><a class="brand" href="./"><img src="icon.svg" alt="">Course Atlas</a><span class="mast-rule"></span><span class="institution">Columbia College</span><span class="year"><i></i>2026–27 Bulletin</span></header>
-<div class="shell"><aside class="sidebar"><div class="nav-label">Program library</div><nav id="library" aria-label="Academic programs"></nav><div class="sidefoot"><span class="mini-book" aria-hidden="true">▤</span><div>Columbia College<br><small>Undergraduate Bulletin</small></div></div></aside>
-<main id="main"><div id="loading" role="status">Opening the course atlas…</div></main></div>
-<dialog id="detail"><div id="detail-inner"></div></dialog>
+<header class="mast">
+  <div class="brand"><img src="icon.svg" alt=""><div>Course Atlas<small>Columbia General Studies</small></div></div>
+  <div id="program-controls"></div>
+</header>
+<main id="main">
+  <div id="map"><p id="loading" role="status">Opening the course atlas…</p></div>
+  <aside id="sidebar" class="sidebar" aria-label="Plan summary"></aside>
+</main>
+<dialog id="detail" aria-labelledby="detail-title"><div id="detail-inner"></div></dialog>
 <div id="toast" role="status" aria-live="polite"></div>
 <script type="module" src="app.js"></script>
 </body></html>
