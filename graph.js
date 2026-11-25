@@ -103,29 +103,83 @@ export function layout(plan, width, height, labelsVisible = true) {
   return {...best,pos,labels};
 }
 
-function edgePath(from,to,index,positions) {
-  const middle = cardHeight / 2;
-  const startY = from.y + middle;
-  const endY = to.y + middle;
-  if (from.x < to.x) {
-    const start = from.x + cardWidth;
-    const end = to.x - 4;
-    if (positions.some(card => card.x > from.x && card.x < to.x)) {
-      // The space below each row keeps long links clear of wrapped columns.
-      const startLane = start + 7 + index % 4;
-      const endLane = end - 4 - index % 4;
-      const rowLane = from.y + cardHeight + 4 + 3 * (index % 4);
-      return 'M'+start+' '+startY+' H'+startLane+' V'+rowLane+' H'+endLane+' V'+endY+' H'+end;
-    }
-    const center = (start + end) / 2;
-    return 'M'+start+' '+startY+' C'+center+' '+startY+' '+center+' '+endY+' '+end+' '+endY;
+function edgePorts(edges, positions) {
+  const sides = new Map();
+  const attach = (code, side, other, port) => {
+    const key = code + ':' + side;
+    if (!sides.has(key)) sides.set(key, []);
+    sides.get(key).push({other,port});
+  };
+  const links = [];
+  for (const edge of edges) {
+    const from = positions.get(edge.from), to = positions.get(edge.to);
+    if (!from || !to) continue;
+    const startSide = from.x <= to.x ? 1 : -1;
+    const endSide = from.x < to.x ? -1 : 1;
+    const start = {x:from.x + (startSide > 0 ? cardWidth : 0),y:from.y};
+    const end = {x:to.x + (endSide > 0 ? cardWidth : 0) + endSide * 4,y:to.y};
+    attach(edge.from,startSide,to,start);
+    attach(edge.to,endSide,from,end);
+    links.push({edge,from,to,start,end,startSide});
   }
+  for (const ports of sides.values()) {
+    ports.sort((a,b) => a.other.y - b.other.y || a.other.x - b.other.x);
+    const spacing = Math.min(14, (cardHeight - 36) / Math.max(1,ports.length - 1));
+    ports.forEach(({port},index) => {
+      port.y += cardHeight / 2 + (index - (ports.length - 1) / 2) * spacing;
+    });
+  }
+  return links;
+}
+
+function roundedRoute(points) {
+  const coordinate = ([x,y]) => x + ' ' + y;
+  const toward = ([x,y],[tx,ty]) => {
+    const distance = Math.hypot(tx - x,ty - y);
+    if (!distance) return [x,y];
+    const fraction = Math.min(18 / distance,.5);
+    return [x + (tx - x) * fraction,y + (ty - y) * fraction];
+  };
+  let path = 'M' + coordinate(points[0]);
+  for (let i = 1; i < points.length - 1; i++) {
+    const point = points[i];
+    path += ' L' + coordinate(toward(point,points[i - 1])) +
+      ' Q' + coordinate(point) + ' ' + coordinate(toward(point,points[i + 1]));
+  }
+  return path + ' L' + coordinate(points.at(-1));
+}
+
+function edgePath(link,index,positions) {
+  const {from,to,start,end,startSide:direction} = link;
+  const first = 'M' + start.x + ' ' + start.y;
+  const last = end.x + ' ' + end.y;
   if (from.x === to.x) {
-    const right = from.x + cardWidth;
-    const lane = right + 13 + 4 * (index % 3);
-    return 'M'+right+' '+(startY+9)+' C'+lane+' '+(startY+9)+' '+lane+' '+(endY+9)+' '+(right+3)+' '+(endY+9);
+    const bend = Math.max(start.x,end.x) + 18 + index % 4;
+    return first + ' C' + bend + ' ' + start.y + ' ' + bend + ' ' + end.y + ' ' + last;
   }
-  return 'M'+from.x+' '+startY+' C'+(from.x-20)+' '+(startY-22)+' '+(to.x+cardWidth+24)+' '+(endY-22)+' '+(to.x+cardWidth+3)+' '+endY;
+
+  const bend = (end.x - start.x) * .46;
+  const controlStart = start.x + bend, controlEnd = end.x - bend;
+  const left = Math.min(start.x,end.x), right = Math.max(start.x,end.x);
+  const obstacles = positions.filter(card => card !== from && card !== to &&
+    card.x + cardWidth > left && card.x < right);
+  const steps = Math.ceil((right - left) / 6);
+  // Sample the cubic only where another card could cover it.
+  for (let i = 1; obstacles.length && i < steps; i++) {
+    const t = i / steps, u = 1 - t;
+    const x = u**3 * start.x + 3 * u**2 * t * controlStart + 3 * u * t**2 * controlEnd + t**3 * end.x;
+    const y = start.y + (end.y - start.y) * (3 * t**2 - 2 * t**3);
+    if (obstacles.some(card => x > card.x - 3 && x < card.x + cardWidth + 3 &&
+        y > card.y - 3 && y < card.y + cardHeight + 3)) {
+      const startLane = start.x + direction * (9 + index % 4);
+      const endLane = end.x - direction * (5 + index % 4);
+      const laneOffset = 5 + (index % 4) * 3;
+      const rowLane = to.y < from.y ? from.y - laneOffset : from.y + cardHeight + laneOffset;
+      return roundedRoute([[start.x,start.y],[startLane,start.y],[startLane,rowLane],
+        [endLane,rowLane],[endLane,end.y],[end.x,end.y]]);
+    }
+  }
+  return first + ' C' + controlStart + ' ' + start.y + ' ' + controlEnd + ' ' + end.y + ' ' + last;
 }
 
 export function drawGraph(host, plan, helpers, previous) {
@@ -156,11 +210,10 @@ export function drawGraph(host, plan, helpers, previous) {
     geometry = layout(plan, Math.max(1,view.clientWidth - 4), Math.max(1,view.clientHeight - inset - bottom - 4), !graphOnly);
     const {pos,labels,width,height} = geometry;
     const positions = [...pos.values()];
-    const edges = plan.edges.map((edge,i) => {
-      const from = pos.get(edge.from), to = pos.get(edge.to);
-      if (!from || !to) return '';
-      return '<path data-from="'+esc(edge.from)+'" data-to="'+esc(edge.to)+'" d="'+edgePath(from,to,i,positions)+'" fill="none" stroke="'+
-        (edge.kind === 'pre' ? '#8c9fb5' : '#6e928f')+'" stroke-width="1.6" '+(edge.kind === 'co' ? 'stroke-dasharray="4 4"' : '')+
+    const edges = edgePorts(plan.edges,pos).map((link,i) => {
+      const {edge} = link;
+      return '<path data-from="'+esc(edge.from)+'" data-to="'+esc(edge.to)+'" d="'+edgePath(link,i,positions)+'" fill="none" stroke="'+
+        (edge.kind === 'pre' ? '#758da8' : '#638985')+'" stroke-width="1.9" stroke-linecap="round" '+(edge.kind === 'co' ? 'stroke-dasharray="4 4"' : '')+
         ' marker-end="url(#end-'+edge.kind+')"/>';
     }).join('');
     const levelLabels = graphOnly ? '' : labels.map(label =>
@@ -176,7 +229,7 @@ export function drawGraph(host, plan, helpers, previous) {
     drawing.style.width = width + 'px';
     drawing.style.height = height + 'px';
     drawing.innerHTML = '<svg class="edges" width="'+width+'" height="'+height+'" aria-hidden="true"><defs>'+
-      mark('pre','#8195aa')+mark('co','#6e928f')+'</defs>'+edges+'</svg>'+levelLabels+cards;
+      mark('pre','#758da8')+mark('co','#638985')+'</defs>'+edges+'</svg>'+levelLabels+cards;
   }
 
   function setZoom(value, center = false) {
