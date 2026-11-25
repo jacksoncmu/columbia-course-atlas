@@ -1,0 +1,43 @@
+{
+  "COMS W3203": {
+    "pre": "COMS W1002/COMS W1004/COMS W1005/COMS W1007/ENGI E1006",
+    "note": "The Bulletin accepts any introductory programming course. The listed courses are examples."
+  },
+  "CSEE W3827": {
+    "pre": "COMS W1002/COMS W1004/COMS W1005/COMS W1007/ENGI E1006",
+    "note": "The Bulletin accepts any introductory programming course. The listed courses are examples."
+  },
+  "COMS W3261": {
+    "pre": "COMS W3203",
+    "co": "COMS W3134/COMS W3136/COMS W3137",
+    "note": "The three listed data structures courses are alternatives. The department lists them as overlapping courses."
+  },
+  "COMS W4111": {
+    "pre": "COMS W3134/COMS W3137",
+    "sourceExtra": "https://www.cs.columbia.edu/education/courses/course/COMSW4111-001/39623/",
+    "note": "The Fall 2026 department section specifies W3134 or W3137 plus Java fluency, or instructor permission. The Bulletin lists the overlapping data structures courses inconsistently."
+  },
+  "COMS W4115": {
+    "pre": "COMS W3134/COMS W3136/COMS W3137/COMS W3261+CSEE W3827",
+    "sourceExtra": "https://www.cs.columbia.edu/education/courses/course/COMSW4115-001/39624/",
+    "note": "The map shows the Bulletin routes. The Fall 2026 department section asks for data structures, W3261 and W3827, or instructor permission. Confirm your section's rule."
+  },
+  "COMS W4118": {
+    "pre": "CSEE W3827;COMS W3136/COMS W3157/COMS W3101",
+    "note": "The second requirement represents C and command-line programming experience as covered in these courses. The instructor may accept equivalent preparation or grant permission."
+  },
+  "COMS W3770": {
+    "pre": "MATH UN2010/MATH UN2015/APMA E2101/APMA E3101/COMS W3251;MATH UN1201/MATH UN1205/APMA E2000;STAT UN1201/MATH UN2015/IEOR E3658",
+    "note": "Students should also be familiar with mathematical proofs."
+  },
+  "CSOR W4231": {
+    "pre": "COMS W3134/COMS W3136/COMS W3137;COMS W3203",
+    "note": "The Bulletin lists data structures and discrete mathematics. Some sections describe the data structures preparation using the honors or legacy course number. Confirm equivalent preparation with the instructor.",
+    "sourceExtra": "https://www.cs.columbia.edu/~xichen/algorithm/"
+  },
+  "ECON BC3010": {
+    "pre": "ECON BC2411/STAT UN1101/STAT UN1201/PSYC BC1101/STAT GU4001;ECON BC1003/ECON UN1105",
+    "note": "The Barnard listing also includes legacy Business and IEOR statistics course numbers. The map shows current equivalents for the Columbia statistics numbers."
+  }
+}
+

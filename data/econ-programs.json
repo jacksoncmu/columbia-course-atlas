@@ -1,0 +1,2633 @@
+[
+  {
+    "id": "economics",
+    "name": "Economics",
+    "type": "Major",
+    "source": "https://bulletin.columbia.edu/columbia-college/departments-instruction/economics/#requirementstext",
+    "publishedCredits": "44 points minimum",
+    "notes": [
+      "The 44-point minimum comprises 35 economics points, six mathematics points and three statistics points. Up to four of the nine economics lecture courses may count through approved outside credit.",
+      "Finish the economics core by spring of junior year. Taking a core course in senior fall requires written permission. The department requires C− or above in courses for the major and accepts a P in Principles of Economics.",
+      "At least five economics lecture courses and the senior seminar must be taken in the Columbia Economics Department. ECON UN3025 and UN3265 count as Columbia courses, including when taught by Barnard faculty. Transfer, placement and exam credit depend on department approval and school records."
+    ],
+    "sections": [
+      {
+        "name": "Economics core",
+        "groups": [
+          {
+            "id": "econ-core",
+            "label": "Core courses",
+            "pick": 4,
+            "options": [
+              {
+                "courses": [
+                  "ECON UN1105"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3211"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3213"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3412"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Quantitative foundations",
+        "groups": [
+          {
+            "id": "econ-math",
+            "label": "Calculus sequence",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "MATH UN1101",
+                  "MATH UN1201"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN1101",
+                  "MATH UN1205"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN1207",
+                  "MATH UN1208"
+                ],
+                "label": "Honors Mathematics A and B"
+              },
+              {
+                "courses": [
+                  "MATH UN1102",
+                  "MATH UN1201"
+                ],
+                "label": "Calculus II and Calculus III"
+              },
+              {
+                "courses": [
+                  "MATH UN1102",
+                  "MATH UN1205"
+                ],
+                "label": "Calculus II and Accelerated Multivariable Calculus"
+              }
+            ],
+            "note": "Follow the mathematics department placement rules. The department checklist also accepts Calculus II in place of Calculus I when appropriate."
+          },
+          {
+            "id": "econ-stats",
+            "label": "Statistics",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "STAT UN1201"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4001"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4204"
+                ]
+              }
+            ],
+            "note": "The bulletin names these options. Confirm other higher-level statistics substitutions with the department."
+          }
+        ]
+      },
+      {
+        "name": "Economics electives",
+        "groups": [
+          {
+            "id": "econ-upper",
+            "label": "Upper-level electives",
+            "pick": 4,
+            "options": [
+              {
+                "courses": [
+                  "ECON UN3025"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3265"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3901"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3952"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3981"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4020"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4211"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4213"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4228"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4230"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4251"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4260"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4280"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4301"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4321"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4325"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4330"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4370"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4400"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4412"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4413"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4415"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4438"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4465"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4480"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4500"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4505"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4615"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4630"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4700"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4710"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4750"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4840"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4850"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4860"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4720"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3902"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3953"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4420"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3027"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3010"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3011"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3012"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3013"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3014"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3017"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3019"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3023"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3024"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3026"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3029"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3031"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3038"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3039"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3041"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3045"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3049"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3270"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3043"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3048"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3080"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4235"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4625"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4526"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3022"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3047"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "econ-fifth",
+            "label": "Fifth elective",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "ECON UN2105"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN2257"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3025"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3265"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3901"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3952"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3981"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4020"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4211"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4213"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4228"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4230"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4251"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4260"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4280"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4301"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4321"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4325"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4330"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4370"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4400"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4412"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4413"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4415"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4438"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4465"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4480"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4500"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4505"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4615"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4630"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4700"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4710"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4750"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4840"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4850"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4860"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4720"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN2300"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3902"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3953"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4420"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC2010"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC2012"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC2017"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC2020"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC2224"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC2075"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3027"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3010"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3011"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3012"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3013"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3014"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3017"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3019"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3023"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3024"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3026"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3029"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3031"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3038"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3039"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3041"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3045"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3049"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3270"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3043"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3048"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3080"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4235"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4625"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4526"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3022"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3047"
+                ]
+              }
+            ],
+            "note": "One of the five may be a 2000-level course. Choose five distinct courses. Accounting, workshops and seminars do not count as electives."
+          }
+        ]
+      },
+      {
+        "name": "Senior seminar",
+        "groups": [
+          {
+            "id": "econ-seminar",
+            "label": "Economics seminar",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "ECON GU4911"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4913"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4918"
+                ]
+              },
+              {
+                "courses": [
+                  "ECPS GU4921"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4999"
+                ],
+                "label": "Senior Honors Thesis Workshop (two semesters, by application)",
+                "repeats": 2,
+                "approval": true
+              }
+            ],
+            "note": "Complete the core before the seminar. The honors thesis requires acceptance into the full-year workshop."
+          }
+        ]
+      }
+    ],
+    "exclusions": [
+      [
+        "ECON GU4321",
+        "ECON BC3029"
+      ],
+      [
+        "ECON GU4400",
+        "ECON BC3019"
+      ],
+      [
+        "ECON GU4505",
+        "ECON BC3038"
+      ],
+      [
+        "ECON GU4500",
+        "ECON BC3047"
+      ],
+      [
+        "ECON GU4415",
+        "ECON BC3080"
+      ],
+      [
+        "ECON GU4465",
+        "ECON BC3026"
+      ],
+      [
+        "ECON GU4840",
+        "ECON BC3048"
+      ],
+      [
+        "ECON GU4625",
+        "ECON BC3039"
+      ],
+      [
+        "ECON GU4235",
+        "ECON BC3041"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Economics major checklist",
+        "url": "https://econ.columbia.edu/wp-content/uploads/sites/18/2026/02/Econ-Major-2026.pdf"
+      },
+      {
+        "label": "Course prerequisites",
+        "url": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+      },
+      {
+        "label": "Course updates",
+        "url": "https://econ.columbia.edu/undergraduate/announcements/newsletter/"
+      }
+    ],
+    "courseLimits": [
+      {
+        "courses": [
+          "ECON BC2010",
+          "ECON BC2012",
+          "ECON BC2017",
+          "ECON BC2020",
+          "ECON BC2224",
+          "ECON BC2075",
+          "ECON BC3027",
+          "ECON BC3010",
+          "ECON BC3011",
+          "ECON BC3012",
+          "ECON BC3013",
+          "ECON BC3014",
+          "ECON BC3017",
+          "ECON BC3019",
+          "ECON BC3023",
+          "ECON BC3024",
+          "ECON BC3026",
+          "ECON BC3029",
+          "ECON BC3031",
+          "ECON BC3038",
+          "ECON BC3039",
+          "ECON BC3041",
+          "ECON BC3045",
+          "ECON BC3049",
+          "ECON BC3270",
+          "ECON BC3043",
+          "ECON BC3048",
+          "ECON BC3080",
+          "ECON BC3022",
+          "ECON BC3047"
+        ],
+        "max": 4,
+        "label": "Barnard electives"
+      }
+    ]
+  },
+  {
+    "id": "financial-economics",
+    "name": "Financial Economics",
+    "type": "Major",
+    "source": "https://bulletin.columbia.edu/columbia-college/departments-instruction/economics/#requirementstext",
+    "publishedCredits": "50 points minimum",
+    "notes": [
+      "The bulletin specifies 26 economics points, six mathematics points, three statistics points, three business points and 12 prescribed elective points. Complete the finance core by senior fall and take UN3025 or GU4280 at Columbia.",
+      "Students also in the Business Management concentration must add an elective from either program’s prescribed list. Up to three outside economics lecture courses may apply.",
+      "Finish the economics core by spring of junior year. Taking a core course in senior fall requires written permission. The department requires C− or above in courses for the major and accepts a P in Principles of Economics.",
+      "At least five economics lecture courses and the senior seminar must be taken in the Columbia Economics Department. ECON UN3025 and UN3265 count as Columbia courses, including when taught by Barnard faculty. Transfer, placement and exam credit depend on department approval and school records."
+    ],
+    "sections": [
+      {
+        "name": "Economics core",
+        "groups": [
+          {
+            "id": "econ-core",
+            "label": "Core courses",
+            "pick": 4,
+            "options": [
+              {
+                "courses": [
+                  "ECON UN1105"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3211"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3213"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3412"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Quantitative foundations",
+        "groups": [
+          {
+            "id": "econ-math",
+            "label": "Calculus sequence",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "MATH UN1101",
+                  "MATH UN1201"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN1101",
+                  "MATH UN1205"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN1207",
+                  "MATH UN1208"
+                ],
+                "label": "Honors Mathematics A and B"
+              },
+              {
+                "courses": [
+                  "MATH UN1102",
+                  "MATH UN1201"
+                ],
+                "label": "Calculus II and Calculus III"
+              },
+              {
+                "courses": [
+                  "MATH UN1102",
+                  "MATH UN1205"
+                ],
+                "label": "Calculus II and Accelerated Multivariable Calculus"
+              }
+            ],
+            "note": "Follow the mathematics department placement rules. The department checklist also accepts Calculus II in place of Calculus I when appropriate."
+          },
+          {
+            "id": "econ-stats",
+            "label": "Statistics",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "STAT UN1201"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4001"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4204"
+                ]
+              }
+            ],
+            "note": "The bulletin names these options. Confirm other higher-level statistics substitutions with the department."
+          }
+        ]
+      },
+      {
+        "name": "Finance core",
+        "groups": [
+          {
+            "id": "fin-core",
+            "label": "Finance courses",
+            "pick": 2,
+            "options": [
+              {
+                "courses": [
+                  "ECON UN3025"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4280"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "fin-accounting",
+            "label": "Accounting",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "ECON UN2261"
+                ]
+              },
+              {
+                "courses": [
+                  "BUSI UN3013"
+                ]
+              },
+              {
+                "courses": [
+                  "BUSI GU4013"
+                ]
+              },
+              {
+                "courses": [
+                  "IEOR E2261"
+                ]
+              }
+            ],
+            "note": "These courses overlap. Only one may count."
+          }
+        ]
+      },
+      {
+        "name": "Prescribed electives",
+        "groups": [
+          {
+            "id": "fin-upper",
+            "label": "Upper-level economics electives",
+            "pick": 2,
+            "options": [
+              {
+                "courses": [
+                  "ECON UN3265"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3901"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3902"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3952"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3953"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3981"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4020"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4213"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4251"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4260"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4330"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4412"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4413"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4415"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4420"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4465"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4500"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4505"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4526"
+                ],
+                "label": "Transition Reforms, Globalization and Financial Crisis (bulletin listing; confirm eligibility)",
+                "approval": true
+              },
+              {
+                "courses": [
+                  "ECON GU4615"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4630"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4700"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4710"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4720"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4840"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4850"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4860"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3080"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3026"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3047"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3038"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3048"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3014"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3017"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3043"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "fin-other",
+            "label": "Additional prescribed electives",
+            "pick": 2,
+            "options": [
+              {
+                "courses": [
+                  "ECON UN3265"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3901"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3902"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3952"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3953"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3981"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4020"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4213"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4251"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4260"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4330"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4412"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4413"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4415"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4420"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4465"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4500"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4505"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4526"
+                ],
+                "label": "Transition Reforms, Globalization and Financial Crisis (bulletin listing; confirm eligibility)",
+                "approval": true
+              },
+              {
+                "courses": [
+                  "ECON GU4615"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4630"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4700"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4710"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4720"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4840"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4850"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4860"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3080"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3026"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3047"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3038"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3048"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3014"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3017"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3043"
+                ]
+              },
+              {
+                "courses": [
+                  "BIOT GU4180"
+                ],
+                "label": "Entrepreneurship in Biotechnology (bulletin listing; confirm eligibility)",
+                "approval": true
+              },
+              {
+                "courses": [
+                  "ECON UN2300"
+                ]
+              },
+              {
+                "courses": [
+                  "BUSI UN3021"
+                ]
+              },
+              {
+                "courses": [
+                  "BUSI UN3701"
+                ]
+              },
+              {
+                "courses": [
+                  "BUSI UN3702"
+                ]
+              },
+              {
+                "courses": [
+                  "BUSI UN3703"
+                ]
+              },
+              {
+                "courses": [
+                  "BUSI UN3704"
+                ]
+              },
+              {
+                "courses": [
+                  "BUSI GU4377"
+                ]
+              },
+              {
+                "courses": [
+                  "BUSI GU4518"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W1002"
+                ],
+                "label": "Computing in Context (finance or economics track)"
+              },
+              {
+                "courses": [
+                  "IEOR E4106"
+                ]
+              },
+              {
+                "courses": [
+                  "IEOR E4700"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN3050"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH GR5010"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS UN3630"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT W3201"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4261"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4207"
+                ],
+                "label": "Elementary Stochastic Processes (bulletin listing; confirm eligibility)",
+                "approval": true
+              },
+              {
+                "courses": [
+                  "STAT GU4262"
+                ],
+                "label": "Stochastic Processes for Finance (bulletin listing; confirm eligibility)",
+                "approval": true
+              }
+            ],
+            "note": "Four distinct prescribed electives are required. At least two must come from the upper-level economics list. The College bulletin and the October 2026 checklist differ on some entries."
+          }
+        ]
+      },
+      {
+        "name": "Senior seminar",
+        "groups": [
+          {
+            "id": "fin-seminar",
+            "label": "Finance-eligible economics seminar",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "ECON GU4911"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4913"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4918"
+                ]
+              },
+              {
+                "courses": [
+                  "ECPS GU4921"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4999"
+                ],
+                "label": "Senior Honors Thesis Workshop (two semesters, by application)",
+                "repeats": 2,
+                "approval": true
+              }
+            ],
+            "note": "Complete the economics core and at least one of ECON UN3025 or GU4280 first. Eligibility varies by term. For spring 2027 the department explicitly lists all sections of GU4911, GU4913 and GU4918. Confirm approval for the thesis or political economy seminar."
+          }
+        ]
+      }
+    ],
+    "exclusions": [
+      [
+        "ECON GU4321",
+        "ECON BC3029"
+      ],
+      [
+        "ECON GU4400",
+        "ECON BC3019"
+      ],
+      [
+        "ECON GU4505",
+        "ECON BC3038"
+      ],
+      [
+        "ECON GU4500",
+        "ECON BC3047"
+      ],
+      [
+        "ECON GU4415",
+        "ECON BC3080"
+      ],
+      [
+        "ECON GU4465",
+        "ECON BC3026"
+      ],
+      [
+        "ECON GU4840",
+        "ECON BC3048"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Financial Economics checklist (October 2026)",
+        "url": "https://econ.columbia.edu/wp-content/uploads/sites/18/2026/10/FNEC_Rev-Oct_2026-2.pdf"
+      },
+      {
+        "label": "Seminar eligibility and new electives",
+        "url": "https://econ.columbia.edu/undergraduate/announcements/newsletter/"
+      },
+      {
+        "label": "Course prerequisites",
+        "url": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+      }
+    ],
+    "programPrerequisites": [
+      {
+        "courses": [
+          "ECON GU4911",
+          "ECON GU4913",
+          "ECON GU4918",
+          "ECPS GU4921",
+          "ECON GU4999"
+        ],
+        "oneOf": [
+          "ECON UN3025",
+          "ECON GU4280"
+        ]
+      }
+    ],
+    "courseLimits": [
+      {
+        "courses": [
+          "ECON BC3080",
+          "ECON BC3026",
+          "ECON BC3047",
+          "ECON BC3038",
+          "ECON BC3048",
+          "ECON BC3014",
+          "ECON BC3017",
+          "ECON BC3043"
+        ],
+        "max": 3,
+        "label": "Barnard electives"
+      }
+    ]
+  },
+  {
+    "id": "economics-statistics",
+    "name": "Economics–Statistics",
+    "type": "Major",
+    "source": "https://bulletin.columbia.edu/columbia-college/departments-instruction/economics/#requirementstext",
+    "publishedCredits": "59 points",
+    "notes": [
+      "The Economics Department lists 29 economics points, 15 statistics points, 12 mathematics points and three computing points. Its standard sequence totals 59 points. The honors mathematics alternative changes the individual courses and their point total.",
+      "Up to two economics lecture courses may come from outside the department. The joint major specifies the econometrics seminar and the department also accepts its full-year honors thesis.",
+      "Finish the economics core by spring of junior year. Taking a core course in senior fall requires written permission. The department requires C− or above in courses for the major and accepts a P in Principles of Economics.",
+      "At least five economics lecture courses and the senior seminar must be taken in the Columbia Economics Department. ECON UN3025 and UN3265 count as Columbia courses, including when taught by Barnard faculty. Transfer, placement and exam credit depend on department approval and school records."
+    ],
+    "sections": [
+      {
+        "name": "Economics core",
+        "groups": [
+          {
+            "id": "econ-core",
+            "label": "Core courses",
+            "pick": 4,
+            "options": [
+              {
+                "courses": [
+                  "ECON UN1105"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3211"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3213"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3412"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mathematics and computing",
+        "groups": [
+          {
+            "id": "joint-math",
+            "label": "Mathematics sequence",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "MATH UN1101",
+                  "MATH UN1102",
+                  "MATH UN1201",
+                  "MATH UN2010"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN1101",
+                  "MATH UN1102",
+                  "MATH UN1205",
+                  "MATH UN2010"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN1207",
+                  "MATH UN1208"
+                ],
+                "label": "Honors Mathematics A and B"
+              }
+            ]
+          },
+          {
+            "id": "joint-cs",
+            "label": "Computing",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "COMS W1004"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W1005"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W1007"
+                ]
+              },
+              {
+                "courses": [
+                  "ENGI E1006"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT UN2102"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Statistics",
+        "groups": [
+          {
+            "id": "joint-stats",
+            "label": "Statistics core",
+            "pick": 4,
+            "options": [
+              {
+                "courses": [
+                  "STAT UN1201"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4203"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4204"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4205"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "joint-stat-elective",
+            "label": "Statistics elective",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "STAT GU4206"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4207"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4208"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4221"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4222"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4223"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4224"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4231"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4232"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4233"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4234"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4235"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4241"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4242"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4243"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4244"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4247"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4261"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4262"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4263"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4264"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4265"
+                ]
+              }
+            ],
+            "note": "The published range is STAT GU4206 through GU4266. The list shows identified courses in that range."
+          }
+        ]
+      },
+      {
+        "name": "Economics electives",
+        "groups": [
+          {
+            "id": "joint-upper",
+            "label": "Columbia upper-level electives",
+            "pick": 2,
+            "options": [
+              {
+                "courses": [
+                  "ECON UN3025"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3265"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3901"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3952"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3981"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4020"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4211"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4213"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4228"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4230"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4251"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4260"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4280"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4301"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4321"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4325"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4330"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4370"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4400"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4412"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4413"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4415"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4438"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4465"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4480"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4500"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4505"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4615"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4630"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4700"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4710"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4750"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4840"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4850"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4860"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4720"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3902"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3953"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4420"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4235"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4625"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4526"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "joint-third",
+            "label": "Third upper-level elective",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "ECON UN3025"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3265"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3901"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3952"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3981"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4020"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4211"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4213"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4228"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4230"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4251"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4260"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4280"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4301"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4321"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4325"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4330"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4370"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4400"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4412"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4413"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4415"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4438"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4465"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4480"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4500"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4505"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4615"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4630"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4700"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4710"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4750"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4840"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4850"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4860"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4720"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3902"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3953"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4420"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3027"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3010"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3011"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3012"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3013"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3014"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3017"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3019"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3023"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3024"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3026"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3029"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3031"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3038"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3039"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3041"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3045"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3049"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3270"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3043"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3048"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3080"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4235"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4625"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4526"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3022"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON BC3047"
+                ]
+              }
+            ],
+            "note": "The Statistics Department limits the three electives to one Barnard course. All three electives must be at the 3000 level or higher."
+          }
+        ]
+      },
+      {
+        "name": "Senior seminar",
+        "groups": [
+          {
+            "id": "joint-seminar",
+            "label": "Econometrics seminar",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "ECON GU4918"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4999"
+                ],
+                "label": "Senior Honors Thesis Workshop (two semesters, by application)",
+                "repeats": 2,
+                "approval": true
+              }
+            ],
+            "note": "The joint major specifies GU4918. The Economics Department also accepts the complete two-term honors thesis for all economics joint majors. Honors admission requires department permission and a 3.7 major GPA."
+          }
+        ]
+      }
+    ],
+    "exclusions": [
+      [
+        "ECON GU4321",
+        "ECON BC3029"
+      ],
+      [
+        "ECON GU4400",
+        "ECON BC3019"
+      ],
+      [
+        "ECON GU4505",
+        "ECON BC3038"
+      ],
+      [
+        "ECON GU4500",
+        "ECON BC3047"
+      ],
+      [
+        "ECON GU4415",
+        "ECON BC3080"
+      ],
+      [
+        "ECON GU4465",
+        "ECON BC3026"
+      ],
+      [
+        "ECON GU4840",
+        "ECON BC3048"
+      ],
+      [
+        "ECON GU4625",
+        "ECON BC3039"
+      ],
+      [
+        "ECON GU4235",
+        "ECON BC3041"
+      ]
+    ],
+    "sources": [
+      {
+        "label": "Statistics Department requirements",
+        "url": "https://bulletin.columbia.edu/columbia-college/departments-instruction/statistics/#requirementstext"
+      },
+      {
+        "label": "Economics–Statistics checklist",
+        "url": "https://econ.columbia.edu/wp-content/uploads/sites/18/2026/02/Econ-Stat-2026.pdf"
+      },
+      {
+        "label": "Course prerequisites",
+        "url": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+      }
+    ]
+  }
+]

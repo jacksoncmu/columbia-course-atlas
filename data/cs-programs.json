@@ -1,0 +1,3072 @@
+[
+  {
+    "id": "computer-science",
+    "name": "Computer Science",
+    "type": "Major",
+    "source": "https://bulletin.columbia.edu/columbia-college/departments-instruction/computer-science/#requirementstext",
+    "sources": [
+      {
+        "label": "CS Department undergraduate guide",
+        "url": "https://www.cs.columbia.edu/education/undergraduate/"
+      },
+      {
+        "label": "CS major quick guide",
+        "url": "https://www.cs.columbia.edu/wp-content/uploads/2023/07/BA.pdf"
+      },
+      {
+        "label": "CS Department undergraduate FAQ",
+        "url": "https://www.cs.columbia.edu/undergrad-faq/"
+      },
+      {
+        "label": "Columbia Engineering CS course catalog",
+        "url": "https://bulletin.columbia.edu/columbia-engineering/academic-departments-programs/computer-science/"
+      },
+      {
+        "label": "Barnard CS course catalog",
+        "url": "https://catalog.barnard.edu/barnard-college/courses-instruction/computer-science/"
+      }
+    ],
+    "notes": [
+      "For Columbia College students declaring in Spring 2024 or later. Students who declared earlier should check their cohort’s requirements.",
+      "ENGI E1006 or COMS W1002 is optional introductory preparation.",
+      "Up to 6 points of supervised projects or thesis may count. Credit for this purpose requires at least 3 points in a single enrollment.",
+      "The department restricts overlap among equivalent data structures, linear algebra, probability, and machine learning courses. Unused area foundation courses can count as electives if they satisfy the elective rule."
+    ],
+    "publishedCredits": "44–56 points across the four published component ranges",
+    "conflicts": [
+      [
+        "COMS W1004",
+        "COMS W1007"
+      ],
+      [
+        "COMS W1007",
+        "COMS W3107"
+      ],
+      [
+        "COMS W3134",
+        "COMS W3137"
+      ],
+      [
+        "COMS W3203",
+        "COMS BC3213"
+      ],
+      [
+        "IEOR E3658",
+        "STAT UN1201",
+        "STAT GU4001",
+        "MATH UN2015"
+      ],
+      [
+        "MATH UN2015",
+        "MATH UN2010",
+        "APMA E3101",
+        "COMS W3251"
+      ],
+      [
+        "COMS W4771",
+        "COMS W4721",
+        "STAT GU4241"
+      ],
+      [
+        "COMS W4170",
+        "COMS BC3997"
+      ],
+      [
+        "COMS BC3160",
+        "COMS W4160"
+      ],
+      [
+        "COMS BC3705",
+        "COMS W4705"
+      ]
+    ],
+    "creditCaps": [
+      {
+        "courses": [
+          "COMS W3902",
+          "COMS W3998",
+          "COMS W4901",
+          "COMS E6901"
+        ],
+        "maxCredits": 6
+      }
+    ],
+    "sections": [
+      {
+        "name": "Mathematics",
+        "groups": [
+          {
+            "id": "cs-calculus",
+            "label": "Multivariable calculus",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "MATH UN1201"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN1205"
+                ]
+              },
+              {
+                "courses": [
+                  "APMA E2000"
+                ]
+              }
+            ],
+            "note": "Calculus III requires Calculus I. The accelerated and engineering alternatives require Calculus I and II, or equivalent preparation."
+          },
+          {
+            "id": "cs-math",
+            "label": "Linear algebra and probability",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "MATH UN2015"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3251",
+                  "IEOR E3658"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3251",
+                  "STAT UN1201"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3251",
+                  "STAT GU4001"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN2010",
+                  "IEOR E3658"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN2010",
+                  "STAT UN1201"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN2010",
+                  "STAT GU4001"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN2020",
+                  "IEOR E3658"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN2020",
+                  "STAT UN1201"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN2020",
+                  "STAT GU4001"
+                ]
+              },
+              {
+                "courses": [
+                  "APMA E2101",
+                  "IEOR E3658"
+                ]
+              },
+              {
+                "courses": [
+                  "APMA E2101",
+                  "STAT UN1201"
+                ]
+              },
+              {
+                "courses": [
+                  "APMA E2101",
+                  "STAT GU4001"
+                ]
+              },
+              {
+                "courses": [
+                  "APMA E3101",
+                  "IEOR E3658"
+                ]
+              },
+              {
+                "courses": [
+                  "APMA E3101",
+                  "STAT UN1201"
+                ]
+              },
+              {
+                "courses": [
+                  "APMA E3101",
+                  "STAT GU4001"
+                ]
+              }
+            ],
+            "note": "MATH UN2015 covers both subjects. The alternative uses two courses, one in linear algebra and one in probability or statistics."
+          }
+        ]
+      },
+      {
+        "name": "Computer science core",
+        "groups": [
+          {
+            "id": "cs-intro",
+            "label": "Introductory programming",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "COMS W1004"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W1007"
+                ]
+              }
+            ],
+            "note": "A score of 4 or 5 on AP Computer Science A can provide 3 points and an exemption from COMS W1004. The Bulletin lists COMS W1007 as the honors alternative."
+          },
+          {
+            "id": "cs-structures",
+            "label": "Data structures",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "COMS W3134"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3137"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "cs-core",
+            "label": "Required core courses",
+            "pick": 4,
+            "options": [
+              {
+                "courses": [
+                  "COMS W3157"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3203"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3261"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W3827"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Area foundations",
+        "groups": [
+          {
+            "id": "cs-area",
+            "label": "Area foundation courses",
+            "pick": 3,
+            "options": [
+              {
+                "courses": [
+                  "COMS W4111"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4113"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4115"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4118"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4119"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4152"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4156"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4160"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4167"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4170"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4181"
+                ]
+              },
+              {
+                "courses": [
+                  "CSOR E4231"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4236"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4701"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4705"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4731"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4733"
+                ]
+              },
+              {
+                "courses": [
+                  "CBMF W4761"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4771"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W4824"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W4868"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Computer science electives",
+        "groups": [
+          {
+            "id": "cs-electives",
+            "label": "Upper-level CS electives",
+            "pick": 3,
+            "options": [
+              {
+                "courses": [
+                  "BMCS E4480"
+                ]
+              },
+              {
+                "courses": [
+                  "BMCS E4575"
+                ]
+              },
+              {
+                "courses": [
+                  "CBMF W4761"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3099"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3159"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3162"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3420"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3430"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3930"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3997"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6111"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6113"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6118"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6156"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6173"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6178"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6184"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6185"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6232"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6261"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6732"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6735"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6900"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6901"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6998"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3107"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3132"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3210"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3251"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3410"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3770"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3902"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3998"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4111"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4112"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4113"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4115"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4118"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4119"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4137"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4152"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4153"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4156"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4160"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4162"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4165"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4167"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4170"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4172"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4181"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4182"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4186"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4203"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4205"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4232"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4236"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4241"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4252"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4261"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4281"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4295"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4419"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4444"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4460"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4701"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4705"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4706"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4710"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4721"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4725"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4726"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4731"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4732"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4733"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4735"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4737"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4762"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4771"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4772"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4773"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4774"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4775"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4776"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4901"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4975"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4995"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4996"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W6298"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W6706"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W6975"
+                ]
+              },
+              {
+                "courses": [
+                  "CSBS W3761"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE E6863"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE E6868"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W4121"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W4140"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W4823"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W4824"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W4840"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W4868"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W6180"
+                ]
+              },
+              {
+                "courses": [
+                  "CSOR E4231"
+                ]
+              },
+              {
+                "courses": [
+                  "CSOR W4223"
+                ]
+              },
+              {
+                "courses": [
+                  "CSOR W4246"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E4321"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E4750"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E4764"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6321"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6690"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6691"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6692"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6693"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6694"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6699"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6720"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6791"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6792"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6891"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6892"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6893"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6894"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6895"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6896"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6897"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6898"
+                ]
+              },
+              {
+                "courses": [
+                  "MECS E4510"
+                ]
+              },
+              {
+                "courses": [
+                  "MECS E6616"
+                ]
+              },
+              {
+                "courses": [
+                  "ORCS E4200"
+                ]
+              },
+              {
+                "courses": [
+                  "ORCS E4201"
+                ]
+              },
+              {
+                "courses": [
+                  "ORCS E4529"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3160"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3705"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3711"
+                ]
+              }
+            ],
+            "note": "Choose distinct COMS or jointly listed CS courses numbered 3000 or higher, including Barnard CS. Each enrollment must earn at least 3 points. The menu lists cataloged options with a course description, scheduled section, or explicit program listing. Future and special-topic offerings vary. Up to 6 points of supervised projects or thesis may count. Credit for this purpose requires at least 3 points in a single enrollment.",
+            "minCredits": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "computer-science-minor",
+    "name": "Computer Science",
+    "type": "Minor",
+    "source": "https://bulletin.columbia.edu/columbia-college/departments-instruction/computer-science/#requirementstext",
+    "sources": [
+      {
+        "label": "CS Department undergraduate guide",
+        "url": "https://www.cs.columbia.edu/education/undergraduate/"
+      },
+      {
+        "label": "CS major quick guide",
+        "url": "https://www.cs.columbia.edu/wp-content/uploads/2023/07/BA.pdf"
+      },
+      {
+        "label": "CS Department undergraduate FAQ",
+        "url": "https://www.cs.columbia.edu/undergrad-faq/"
+      },
+      {
+        "label": "Columbia Engineering CS course catalog",
+        "url": "https://bulletin.columbia.edu/columbia-engineering/academic-departments-programs/computer-science/"
+      },
+      {
+        "label": "Barnard CS course catalog",
+        "url": "https://catalog.barnard.edu/barnard-college/courses-instruction/computer-science/"
+      }
+    ],
+    "notes": [
+      "Six courses under the curriculum in effect since Fall 2024.",
+      "Students pursuing the CS major or minor, Information Science, Data Science, CS–Mathematics, or Computational Biology are ineligible for the AI minor."
+    ],
+    "publishedCredits": "6 courses, at least 19 points",
+    "conflicts": [
+      [
+        "COMS W1004",
+        "COMS W1007"
+      ],
+      [
+        "COMS W1007",
+        "COMS W3107"
+      ],
+      [
+        "COMS W3134",
+        "COMS W3137"
+      ],
+      [
+        "COMS W3203",
+        "COMS BC3213"
+      ],
+      [
+        "COMS W4170",
+        "COMS BC3997"
+      ],
+      [
+        "COMS BC3160",
+        "COMS W4160"
+      ],
+      [
+        "COMS BC3705",
+        "COMS W4705"
+      ]
+    ],
+    "sections": [
+      {
+        "name": "Computer science core",
+        "groups": [
+          {
+            "id": "csm-intro",
+            "label": "Introductory programming",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "COMS W1004"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W1007"
+                ]
+              }
+            ],
+            "note": "A score of 4 or 5 on AP Computer Science A can provide 3 points and an exemption from COMS W1004. The Bulletin lists COMS W1007 as the honors alternative."
+          },
+          {
+            "id": "csm-structures",
+            "label": "Data structures",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "COMS W3134"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3137"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "csm-discrete",
+            "label": "Discrete mathematics",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "COMS W3203"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "csm-core-choice",
+            "label": "Programming, theory, or systems",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "COMS W3157"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3261"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W3827"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Upper-level electives",
+        "groups": [
+          {
+            "id": "csm-elective",
+            "label": "Computer science elective",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "BMCS E4480"
+                ]
+              },
+              {
+                "courses": [
+                  "BMCS E4575"
+                ]
+              },
+              {
+                "courses": [
+                  "CBMF W4761"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3099"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3159"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3162"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3420"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3430"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3930"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3997"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6111"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6113"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6118"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6156"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6173"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6178"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6184"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6185"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6232"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6261"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6732"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6735"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6900"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6901"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6998"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3107"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3132"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3157"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3210"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3251"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3261"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3410"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3770"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3902"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3998"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4111"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4112"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4113"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4115"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4118"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4119"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4137"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4152"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4153"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4156"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4160"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4162"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4165"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4167"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4170"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4172"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4181"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4182"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4186"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4203"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4205"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4232"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4236"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4241"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4252"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4261"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4281"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4295"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4419"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4444"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4460"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4701"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4705"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4706"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4710"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4721"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4725"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4726"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4731"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4732"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4733"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4735"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4737"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4762"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4771"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4772"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4773"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4774"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4775"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4776"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4901"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4975"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4995"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4996"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W6298"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W6706"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W6975"
+                ]
+              },
+              {
+                "courses": [
+                  "CSBS W3761"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE E6863"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE E6868"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W3827"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W4121"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W4140"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W4823"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W4824"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W4840"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W4868"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W6180"
+                ]
+              },
+              {
+                "courses": [
+                  "CSOR E4231"
+                ]
+              },
+              {
+                "courses": [
+                  "CSOR W4223"
+                ]
+              },
+              {
+                "courses": [
+                  "CSOR W4246"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E4321"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E4750"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E4764"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6321"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6690"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6691"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6692"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6693"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6694"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6699"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6720"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6791"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6792"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6891"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6892"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6893"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6894"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6895"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6896"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6897"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6898"
+                ]
+              },
+              {
+                "courses": [
+                  "MECS E4510"
+                ]
+              },
+              {
+                "courses": [
+                  "MECS E6616"
+                ]
+              },
+              {
+                "courses": [
+                  "ORCS E4200"
+                ]
+              },
+              {
+                "courses": [
+                  "ORCS E4201"
+                ]
+              },
+              {
+                "courses": [
+                  "ORCS E4529"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3160"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3705"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3711"
+                ]
+              }
+            ],
+            "note": "Choose distinct COMS or jointly listed CS courses numbered 3000 or higher, including Barnard CS. Each enrollment must earn at least 3 points. The menu lists cataloged options with a course description, scheduled section, or explicit program listing. Future and special-topic offerings vary.",
+            "minCredits": 3
+          },
+          {
+            "id": "csm-flex",
+            "label": "Computer science or mathematics elective",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "BMCS E4480"
+                ]
+              },
+              {
+                "courses": [
+                  "BMCS E4575"
+                ]
+              },
+              {
+                "courses": [
+                  "CBMF W4761"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3099"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3159"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3162"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3420"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3430"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3930"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3997"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6111"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6113"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6118"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6156"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6173"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6178"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6184"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6185"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6232"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6261"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6732"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6735"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6900"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6901"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6998"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3107"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3132"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3157"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3210"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3251"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3261"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3410"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3770"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3902"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3998"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4111"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4112"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4113"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4115"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4118"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4119"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4137"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4152"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4153"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4156"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4160"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4162"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4165"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4167"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4170"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4172"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4181"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4182"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4186"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4203"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4205"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4232"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4236"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4241"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4252"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4261"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4281"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4295"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4419"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4444"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4460"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4701"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4705"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4706"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4710"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4721"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4725"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4726"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4731"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4732"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4733"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4735"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4737"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4762"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4771"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4772"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4773"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4774"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4775"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4776"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4901"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4975"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4995"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4996"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W6298"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W6706"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W6975"
+                ]
+              },
+              {
+                "courses": [
+                  "CSBS W3761"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE E6863"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE E6868"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W3827"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W4121"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W4140"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W4823"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W4824"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W4840"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W4868"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W6180"
+                ]
+              },
+              {
+                "courses": [
+                  "CSOR E4231"
+                ]
+              },
+              {
+                "courses": [
+                  "CSOR W4223"
+                ]
+              },
+              {
+                "courses": [
+                  "CSOR W4246"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E4321"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E4750"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E4764"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6321"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6690"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6691"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6692"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6693"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6694"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6699"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6720"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6791"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6792"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6891"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6892"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6893"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6894"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6895"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6896"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6897"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E6898"
+                ]
+              },
+              {
+                "courses": [
+                  "MECS E4510"
+                ]
+              },
+              {
+                "courses": [
+                  "MECS E6616"
+                ]
+              },
+              {
+                "courses": [
+                  "ORCS E4200"
+                ]
+              },
+              {
+                "courses": [
+                  "ORCS E4201"
+                ]
+              },
+              {
+                "courses": [
+                  "ORCS E4529"
+                ]
+              },
+              {
+                "courses": [
+                  "APMA E3101"
+                ]
+              },
+              {
+                "courses": [
+                  "APMA E2101"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN2010"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN2015"
+                ]
+              },
+              {
+                "courses": [
+                  "IEOR E3658"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT UN1201"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4001"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4203"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3160"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3705"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3711"
+                ]
+              }
+            ],
+            "note": "Choose a second qualifying CS elective or one of the eight listed mathematics and statistics options.",
+            "minCredits": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "artificial-intelligence-minor",
+    "name": "Artificial Intelligence",
+    "type": "Minor",
+    "source": "https://bulletin.columbia.edu/columbia-college/departments-instruction/computer-science/#requirementstext",
+    "sources": [
+      {
+        "label": "CS Department undergraduate guide",
+        "url": "https://www.cs.columbia.edu/education/undergraduate/"
+      }
+    ],
+    "notes": [
+      "Students pursuing the CS major or minor, Information Science, Data Science, CS–Mathematics, or Computational Biology are ineligible for the AI minor.",
+      "The department lists COMS W2132 or IEOR E2000 as a single intermediate-computing requirement. The math substitution adds a seventh course."
+    ],
+    "publishedCredits": "6 courses, or 7 with the two-course math substitution",
+    "sections": [
+      {
+        "name": "Foundations",
+        "groups": [
+          {
+            "id": "ai-math",
+            "label": "Linear algebra and probability",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "MATH UN2015"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3251",
+                  "IEOR E3658"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3251",
+                  "STAT UN1201"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3251",
+                  "STAT GU4001"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN2010",
+                  "IEOR E3658"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN2010",
+                  "STAT UN1201"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN2010",
+                  "STAT GU4001"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN2020",
+                  "IEOR E3658"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN2020",
+                  "STAT UN1201"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN2020",
+                  "STAT GU4001"
+                ]
+              },
+              {
+                "courses": [
+                  "APMA E2101",
+                  "IEOR E3658"
+                ]
+              },
+              {
+                "courses": [
+                  "APMA E2101",
+                  "STAT UN1201"
+                ]
+              },
+              {
+                "courses": [
+                  "APMA E2101",
+                  "STAT GU4001"
+                ]
+              },
+              {
+                "courses": [
+                  "APMA E3101",
+                  "IEOR E3658"
+                ]
+              },
+              {
+                "courses": [
+                  "APMA E3101",
+                  "STAT UN1201"
+                ]
+              },
+              {
+                "courses": [
+                  "APMA E3101",
+                  "STAT GU4001"
+                ]
+              }
+            ],
+            "note": "MATH UN2015 covers both subjects. The alternative uses two courses, one in linear algebra and one in probability or statistics."
+          },
+          {
+            "id": "ai-intro",
+            "label": "Introductory computing",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "ENGI E1006"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W1002"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ai-python",
+            "label": "Intermediate Python",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "COMS W2132"
+                ]
+              },
+              {
+                "courses": [
+                  "IEOR E2000"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Artificial intelligence",
+        "groups": [
+          {
+            "id": "ai-core",
+            "label": "Artificial intelligence",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "COMS W4701"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ai-ethics",
+            "label": "Ethics",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "COMS W4710"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W2702"
+                ]
+              },
+              {
+                "courses": [
+                  "PSYC GU4836"
+                ]
+              },
+              {
+                "courses": [
+                  "ORCS E4201"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS BC3420"
+                ]
+              }
+            ],
+            "note": "The department excludes PSYC 2255 in Spring 2027."
+          },
+          {
+            "id": "ai-elective",
+            "label": "AI elective",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "BMEN E4460"
+                ]
+              },
+              {
+                "courses": [
+                  "BMEN E4470"
+                ]
+              },
+              {
+                "courses": [
+                  "BMEN E4480"
+                ]
+              },
+              {
+                "courses": [
+                  "CBMF W4761"
+                ]
+              },
+              {
+                "courses": [
+                  "CHEN E4180"
+                ]
+              },
+              {
+                "courses": [
+                  "CIEN E4253"
+                ]
+              },
+              {
+                "courses": [
+                  "CIEN E4256"
+                ]
+              },
+              {
+                "courses": [
+                  "EAEE E4000"
+                ]
+              },
+              {
+                "courses": [
+                  "ECBM E4040"
+                ]
+              },
+              {
+                "courses": [
+                  "EECS E4764"
+                ]
+              },
+              {
+                "courses": [
+                  "ELEN E4720"
+                ]
+              },
+              {
+                "courses": [
+                  "ELEN E4730"
+                ]
+              },
+              {
+                "courses": [
+                  "IEOR E4212"
+                ]
+              },
+              {
+                "courses": [
+                  "IEOR E4540"
+                ]
+              },
+              {
+                "courses": [
+                  "MECE E4520"
+                ]
+              },
+              {
+                "courses": [
+                  "MECE E4602"
+                ]
+              },
+              {
+                "courses": [
+                  "ORCS E4200"
+                ]
+              },
+              {
+                "courses": [
+                  "ORCS E4529"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS GU4728"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4241"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4242"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4243"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4244"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4705"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4706"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4710"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4721"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4725"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4726"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4731"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4732"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4733"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4735"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4737"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4762"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4771"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4772"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4773"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4774"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4775"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4776"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4995"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS E6998"
+                ]
+              }
+            ],
+            "note": "Along with the named courses, any COMS 47xx course and a relevant section of COMS W4995 or COMS E6998 may count. Choose a different course from the AI and ethics requirements. Verify the topic of a selected section with CS Advising."
+          }
+        ]
+      }
+    ]
+  }
+]

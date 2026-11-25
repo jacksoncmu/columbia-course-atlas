@@ -1,0 +1,2051 @@
+[
+  {
+    "id": "data-science",
+    "name": "Data Science",
+    "type": "Major",
+    "source": "https://bulletin.columbia.edu/columbia-college/departments-instruction/statistics/#requirementstext",
+    "sources": [
+      {
+        "label": "Statistics bulletin",
+        "url": "https://bulletin.columbia.edu/columbia-college/departments-instruction/statistics/#requirementstext"
+      },
+      {
+        "label": "Computer Science bulletin",
+        "url": "https://bulletin.columbia.edu/columbia-college/departments-instruction/computer-science/#requirementstext"
+      },
+      {
+        "label": "Data Science department guide",
+        "url": "https://www.cs.columbia.edu/wp-content/uploads/2025/09/Data-Science-Major-9292025.pdf"
+      },
+      {
+        "label": "Columbia Directory of Classes · COMS",
+        "url": "https://doc.sis.columbia.edu/subj/COMS/"
+      }
+    ],
+    "publishedCredits": "54 points in the CS bulletin’s category totals; 18 courses on the standard mathematics path.",
+    "notes": [
+      "The departments require letter grades above D. The Statistics table includes the accelerated calculus option, the honors mathematics route, and COMS W4130. The current CS quick guide omits W4130, so confirm eligibility and availability before selecting it.",
+      "The CS bulletin assigns 15 points to prerequisites, 12 to statistics, 12 to computer science, and 15 to electives. The selected courses’ actual point values can yield a different total.",
+      "The introduction requirement accepts STAT UN1001 or UN1101 taken in spring 2018 or earlier in place of STAT UN1201."
+    ],
+    "variants": [
+      {
+        "id": "standard",
+        "label": "Standard mathematics sequence",
+        "sections": [
+          {
+            "name": "Mathematics preparation",
+            "groups": [
+              {
+                "id": "ds-calculus",
+                "label": "Calculus I and II",
+                "pick": 2,
+                "options": [
+                  {
+                    "courses": [
+                      "MATH UN1101"
+                    ]
+                  },
+                  {
+                    "courses": [
+                      "MATH UN1102"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ds-multi",
+                "label": "Multivariable calculus",
+                "pick": 1,
+                "options": [
+                  {
+                    "courses": [
+                      "MATH UN1201"
+                    ]
+                  },
+                  {
+                    "courses": [
+                      "MATH UN1205"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ds-linear",
+                "label": "Linear algebra",
+                "pick": 1,
+                "options": [
+                  {
+                    "courses": [
+                      "MATH UN2010"
+                    ]
+                  },
+                  {
+                    "courses": [
+                      "APMA E3101"
+                    ]
+                  }
+                ],
+                "note": "The Statistics table lists MATH UN2010. The CS department guide also accepts linear algebra offered by Applied Mathematics."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "honors",
+        "label": "Honors mathematics sequence",
+        "sections": [
+          {
+            "name": "Mathematics preparation",
+            "groups": [
+              {
+                "id": "honors-math",
+                "label": "Honors Mathematics A and B",
+                "pick": 2,
+                "options": [
+                  {
+                    "courses": [
+                      "MATH UN1207"
+                    ]
+                  },
+                  {
+                    "courses": [
+                      "MATH UN1208"
+                    ]
+                  }
+                ],
+                "note": "The department allows students who qualify for honors placement to use the completed A–B sequence for the full mathematics prerequisite."
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "The honors sequence requires placement. The Mathematics Department publishes qualifying AP and IB scores."
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "name": "Statistics",
+        "groups": [
+          {
+            "id": "stat-core",
+            "label": "Statistics foundation and core",
+            "pick": 4,
+            "options": [
+              {
+                "courses": [
+                  "STAT UN1201"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4203"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4204"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4205"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ds-ml",
+            "label": "Machine learning",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "STAT GU4241"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4771"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Computer science",
+        "groups": [
+          {
+            "id": "ds-intro",
+            "label": "Introductory programming",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "COMS W1004"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W1005"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W1007"
+                ]
+              },
+              {
+                "courses": [
+                  "ENGI E1006"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ds-ds",
+            "label": "Data structures",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "COMS W3134"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3136"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3137"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ds-cscore",
+            "label": "Discrete mathematics and algorithms",
+            "pick": 2,
+            "options": [
+              {
+                "courses": [
+                  "COMS W3203"
+                ]
+              },
+              {
+                "courses": [
+                  "CSOR W4231"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Electives",
+        "groups": [
+          {
+            "id": "ds-stat-elec",
+            "label": "Statistics electives",
+            "pick": 2,
+            "options": [
+              {
+                "courses": [
+                  "STAT UN3106"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4206"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4224"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4242"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4243"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ds-cs-elec",
+            "label": "Computer science electives",
+            "pick": 3,
+            "options": [
+              {
+                "courses": [
+                  "COMS W3261"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4111"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4130"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4236"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4252"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4701"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4705"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4706"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4710"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4721"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4725"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4726"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4731"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4732"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4733"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4735"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4737"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4762"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4772"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4773"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4774"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4775"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4776"
+                ]
+              }
+            ],
+            "note": "Includes the published COMS W47xx course family except W4771. W4721 has overlapping content with W4771. Check enrollment restrictions and overlapping-credit rules when selecting machine learning courses."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "information-science",
+    "name": "Information Science",
+    "type": "Major",
+    "source": "https://bulletin.columbia.edu/columbia-college/departments-instruction/computer-science/#requirementstext",
+    "sources": [
+      {
+        "label": "Computer Science bulletin",
+        "url": "https://bulletin.columbia.edu/columbia-college/departments-instruction/computer-science/#requirementstext"
+      },
+      {
+        "label": "Fall 2026 Information Science guide",
+        "url": "https://www.cs.columbia.edu/wp-content/uploads/2026/09/Info-Science-Quick-Guide.pdf"
+      }
+    ],
+    "publishedCredits": "13 major courses plus Calculus I preparation. Each interdisciplinary elective carries at least 3 points.",
+    "notes": [
+      "Applies to students declaring in fall 2026 or later. The department guide names Calculus I as prerequisite preparation and permits COMS W1007 as the introductory course. Earlier declarations use a different major.",
+      "The guide lists CSEE W4119 and CSOR W4231 for networking and algorithms. The College table uses alternate subject or division codes for the same titles."
+    ],
+    "sections": [
+      {
+        "name": "Prerequisite",
+        "groups": [
+          {
+            "id": "is-calc",
+            "label": "Calculus",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "MATH UN1101"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Information Science core",
+        "groups": [
+          {
+            "id": "is-intro",
+            "label": "Introduction to computer science",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "COMS W1004"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W1007"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "is-ds",
+            "label": "Data structures",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "COMS W3134"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3137"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "is-core",
+            "label": "Required computer science courses",
+            "pick": 4,
+            "options": [
+              {
+                "courses": [
+                  "COMS W3157"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3203"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3261"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W3827"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "is-math",
+            "label": "Linear algebra or probability and statistics",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "MATH UN2015"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT UN1201"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W3251"
+                ]
+              },
+              {
+                "courses": [
+                  "APMA E3101"
+                ]
+              },
+              {
+                "courses": [
+                  "APMA E2101"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN2010"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4001"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4203"
+                ]
+              },
+              {
+                "courses": [
+                  "IEOR E3658"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Electives",
+        "groups": [
+          {
+            "id": "is-afc",
+            "label": "Area foundation courses",
+            "pick": 3,
+            "options": [
+              {
+                "courses": [
+                  "COMS W4111"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4113"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4115"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4118"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W4119"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4152"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4156"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4160"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4167"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4170"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4181"
+                ]
+              },
+              {
+                "courses": [
+                  "CSOR W4231"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4236"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4701"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4705"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4731"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4733"
+                ]
+              },
+              {
+                "courses": [
+                  "CBMF W4761"
+                ]
+              },
+              {
+                "courses": [
+                  "COMS W4771"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W4824"
+                ]
+              },
+              {
+                "courses": [
+                  "CSEE W4868"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "is-noncs",
+            "label": "Courses in one other department",
+            "pick": 3,
+            "options": [
+              {
+                "courses": [
+                  "ECON GU4020"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4211"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4213"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4228"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4230"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4251"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4260"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4280"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4301"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4321"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4325"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4330"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4370"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4400"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4412"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4413"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4415"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4438"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4465"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4480"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4500"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4505"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4615"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4630"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4700"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4710"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4720"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4750"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4840"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4850"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4860"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4911"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4913"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4918"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON GU4999"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3025"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3211"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3213"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3265"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3412"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3901"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3952"
+                ]
+              },
+              {
+                "courses": [
+                  "ECON UN3981"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH GU4007"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH GU4032"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH GU4041"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH GU4042"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH GU4043"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH GU4044"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH GU4045"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH GU4051"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH GU4052"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH GU4053"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH GU4061"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH GU4062"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH GU4065"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH GU4081"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH GU4155"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH GU4156"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH GU4200"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH GU4391"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH GU4392"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN3007"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN3020"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN3025"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN3028"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN3050"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN3386"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN3951"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN3952"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH UN3994"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL GU4170"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL GU4337"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL GU4424"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL GU4431"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL GU4481"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL GU4495"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL GU4501"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL GU4561"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL GU4602"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL GU4675"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL GU4810"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL GU4900"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL UN3000"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL UN3131"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL UN3264"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL UN3353"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL UN3411"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL UN3551"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL UN3601"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL UN3685"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL UN3701"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL UN3751"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL UN3756"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL UN3768"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL UN3858"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL UN3863"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL UN3912"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL UN3960"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL UN3996"
+                ]
+              },
+              {
+                "courses": [
+                  "PHIL UN3997"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS GU4110"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS GU4132"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS GU4134"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS GU4280"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS GU4413"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS GU4434"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS GU4454"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS GU4461"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS GU4471"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS GU4496"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS GU4700"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS GU4710"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS GU4712"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS GU4720"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS GU4722"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS GU4724"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS GU4726"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS GU4728"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS GU4730"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS GU4732"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS GU4762"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS GU4814"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS GU4845"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS GU4865"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS UN3100"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS UN3128"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS UN3210"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS UN3220"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS UN3225"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS UN3250"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS UN3255"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS UN3260"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS UN3285"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS UN3516"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS UN3534"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS UN3559"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS UN3619"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS UN3631"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS UN3648"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS UN3685"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS UN3704"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS UN3720"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS UN3871"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS UN3911"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS UN3921"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS UN3951"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS UN3961"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS UN3998"
+                ]
+              },
+              {
+                "courses": [
+                  "POLS UN3999"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4001"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4203"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4204"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4205"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4206"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4207"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4208"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4221"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4222"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4223"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4224"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4231"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4232"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4233"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4234"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4235"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4241"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4242"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4243"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4244"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4247"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4261"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4262"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4263"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4264"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4265"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4281"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4282"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4291"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4293"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT UN3105"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT UN3106"
+                ]
+              }
+            ],
+            "note": "Choose three distinct courses from the same non-CS department, each numbered 3000 or higher and worth at least 3 points. The indexed choices span Economics, Mathematics, Philosophy, Political Science and Statistics. Other departments also qualify. Check eligibility with the host department.",
+            "openRule": {
+              "kind": "department",
+              "minNumber": 3000,
+              "minCredits": 3,
+              "sameDepartment": true
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "statistics",
+    "name": "Statistics",
+    "type": "Major",
+    "source": "https://bulletin.columbia.edu/columbia-college/departments-instruction/statistics/#requirementstext",
+    "sources": [
+      {
+        "label": "Statistics bulletin",
+        "url": "https://bulletin.columbia.edu/columbia-college/departments-instruction/statistics/#requirementstext"
+      },
+      {
+        "label": "Statistics department planning guidance",
+        "url": "https://stat.columbia.edu/program-planning-guidance-for-undergraduates/"
+      },
+      {
+        "label": "Columbia Directory of Classes · STAT",
+        "url": "https://doc.sis.columbia.edu/subj/STAT/"
+      }
+    ],
+    "publishedCredits": "14 courses on the standard mathematics path. The department specifies course counts.",
+    "notes": [
+      "Plan the major with the director of undergraduate studies. All major courses must receive a letter grade above D.",
+      "The College table and department planning guidance specify three electives. A conflicting sentence in the same bulletin table says five. The planner follows the 14-course total and the department guidance."
+    ],
+    "sections": [
+      {
+        "name": "Computing and statistics",
+        "groups": [
+          {
+            "id": "stats-comp",
+            "label": "Computing",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "COMS W1004"
+                ]
+              },
+              {
+                "courses": [
+                  "ENGI E1006"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT UN2102"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "stats-req",
+            "label": "Statistics prerequisite and core",
+            "pick": 5,
+            "options": [
+              {
+                "courses": [
+                  "STAT UN1201"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4203"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4204"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4206"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4207"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "stats-regression",
+            "label": "Linear regression",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "STAT GU4205"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4282"
+                ]
+              }
+            ],
+            "note": "Students preparing for an actuarial career may substitute GU4282 for GU4205. GU4205 is the standard requirement."
+          }
+        ]
+      },
+      {
+        "name": "Approved electives",
+        "groups": [
+          {
+            "id": "stats-stat-elec",
+            "label": "At least one Statistics elective",
+            "pick": 1,
+            "options": [
+              {
+                "courses": [
+                  "STAT GU4221"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4222"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4223"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4224"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4231"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4232"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4233"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4234"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4235"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4241"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4242"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4243"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4244"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4247"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4261"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4262"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4263"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4264"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4265"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4281"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4282"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4291"
+                ]
+              }
+            ],
+            "note": "One of the three approved electives must be a Statistics Department course numbered 4221–4291."
+          },
+          {
+            "id": "stats-adv-elec",
+            "label": "Additional advanced electives",
+            "pick": 2,
+            "options": [
+              {
+                "courses": [
+                  "MATH GU4061"
+                ]
+              },
+              {
+                "courses": [
+                  "MATH GU4062"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4208"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4221"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4222"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4223"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4224"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4231"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4232"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4233"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4234"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4235"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4241"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4242"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4243"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4244"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4247"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4261"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4262"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4263"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4264"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4265"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4281"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4282"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4291"
+                ]
+              },
+              {
+                "courses": [
+                  "STAT GU4293"
+                ]
+              }
+            ],
+            "note": "Obtain approval for the complete three-course elective plan. Advanced courses in mathematics, statistics, applied mathematics, industrial engineering and operations research, computer science, and quantitative social science may be approved. The department recommends both Modern Analysis courses for students preparing for graduate study.",
+            "openRule": {
+              "kind": "approval",
+              "approvalRequired": true
+            }
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": "standard",
+        "label": "Standard mathematics sequence",
+        "sections": [
+          {
+            "name": "Mathematics preparation",
+            "groups": [
+              {
+                "id": "math-foundation",
+                "label": "Calculus and linear algebra",
+                "pick": 4,
+                "options": [
+                  {
+                    "courses": [
+                      "MATH UN1101"
+                    ]
+                  },
+                  {
+                    "courses": [
+                      "MATH UN1102"
+                    ]
+                  },
+                  {
+                    "courses": [
+                      "MATH UN1201"
+                    ]
+                  },
+                  {
+                    "courses": [
+                      "MATH UN2010"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "honors",
+        "label": "Honors mathematics sequence",
+        "sections": [
+          {
+            "name": "Mathematics preparation",
+            "groups": [
+              {
+                "id": "honors-math",
+                "label": "Honors Mathematics A and B",
+                "pick": 2,
+                "options": [
+                  {
+                    "courses": [
+                      "MATH UN1207"
+                    ]
+                  },
+                  {
+                    "courses": [
+                      "MATH UN1208"
+                    ]
+                  }
+                ],
+                "note": "The department allows students who qualify for honors placement to use the completed A–B sequence for the full mathematics prerequisite."
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "The honors sequence requires placement. The Mathematics Department publishes qualifying AP and IB scores."
+        ]
+      }
+    ]
+  }
+]

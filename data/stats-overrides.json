@@ -1,0 +1,248 @@
+{
+  "MATH UN1101": {
+    "pre": "",
+    "note": "Precalculus preparation or appropriate placement is assumed.",
+    "description": "Studies limits, derivatives and introductory integration for functions of one variable."
+  },
+  "MATH UN1102": {
+    "pre": "MATH UN1101",
+    "note": "Equivalent placement or prior coursework can satisfy Calculus I."
+  },
+  "MATH UN1201": {
+    "pre": "MATH UN1101",
+    "note": "Calculus I or its equivalent prepares students for Calculus III. Calculus II is optional before III."
+  },
+  "MATH UN1202": {
+    "pre": "MATH UN1102;MATH UN1201",
+    "note": "The standard sequence requires Calculus II and III or equivalent preparation.",
+    "description": "Covers multiple integrals, line and surface integrals, vector calculus and Fourier series."
+  },
+  "MATH UN1205": {
+    "pre": "MATH UN1101;MATH UN1102",
+    "note": "The accelerated class covers material from Calculus III and IV. Placement can establish the prerequisite."
+  },
+  "MATH UN1207": {
+    "pre": "",
+    "note": "Honors placement is required. The department lists a 5 on AP Calculus BC or a 7 on IB Mathematics: Analysis and Approaches HL for entering students.",
+    "description": "Begins a proof-based sequence in multivariable calculus and linear algebra.",
+    "sourceExtra": "https://www.math.columbia.edu/programs-math/undergraduate-program/calculus-classes/"
+  },
+  "MATH UN1208": {
+    "pre": "MATH UN1207",
+    "note": "The second term follows Honors Mathematics A.",
+    "description": "Continues the proof-based study of multivariable calculus and linear algebra."
+  },
+  "MATH UN2010": {
+    "pre": "MATH UN1201/MATH UN1205",
+    "note": "The course record lists Calculus III or equivalent. The Mathematics Department’s course page describes that preparation as strongly recommended.",
+    "description": "Studies matrices, linear maps, vector spaces, eigenvalues, orthogonality and applications.",
+    "sourceExtra": "https://www.math.columbia.edu/programs-math/undergraduate-program/linear-algebra/"
+  },
+  "MATH UN2015": {
+    "pre": "",
+    "note": "The department strongly recommends Calculus I. Credit overlaps with MATH UN2010.",
+    "description": "Combines matrix methods, vector spaces and spectral theory with probability and statistical applications.",
+    "sourceExtra": "https://www.math.columbia.edu/programs-math/undergraduate-program/linear-algebra/linear-algebra-probability/"
+  },
+  "MATH UN2020": {
+    "pre": "MATH UN1201/MATH UN1205",
+    "note": "The course overlaps with MATH UN2010 and the honors mathematics sequence."
+  },
+  "MATH UN2030": {
+    "pre": "MATH UN1102+MATH UN1201/MATH UN1205/MATH UN1208"
+  },
+  "MATH UN2500": {
+    "pre": "MATH UN1102+MATH UN1201/MATH UN1205/MATH UN1208;MATH UN2010/MATH UN1208",
+    "description": "Studies optimization methods for economics, including quadratic forms, convexity and constrained optimization."
+  },
+  "MATH UN3007": {
+    "pre": "MATH UN1202/MATH UN1205/MATH UN1208"
+  },
+  "MATH UN3020": {
+    "pre": "MATH UN1102/MATH UN1208",
+    "note": "The bulletin specifies calculus preparation. The graph shows Columbia course routes. Equivalent preparation may also qualify.",
+    "description": "Examines congruences, primitive roots, quadratic residues and applications of number theory."
+  },
+  "MATH UN3025": {
+    "pre": "MATH UN1102+MATH UN1201/MATH UN1205/MATH UN1208;MATH UN2010/MATH UN1208"
+  },
+  "MATH UN3027": {
+    "pre": "MATH UN1102+MATH UN1201/MATH UN1205/MATH UN1208",
+    "co": "MATH UN2010/MATH UN1208"
+  },
+  "MATH UN3028": {
+    "pre": "MATH UN2030/MATH UN3027;MATH UN2010/MATH UN1208",
+    "note": "The catalog cites both the current ODE course and its older number."
+  },
+  "MATH UN3050": {
+    "pre": "MATH UN1102+MATH UN1201/MATH UN1205/MATH UN1208;MATH UN2010/MATH UN1208",
+    "note": "The department also recommends differential equations and probability."
+  },
+  "MATH UN3386": {
+    "pre": "MATH UN1202/MATH UN1205/MATH UN1208"
+  },
+  "MATH UN3951": {
+    "pre": "MATH UN1202/MATH UN1205/MATH UN1208",
+    "note": "Two years of calculus, at least a year of further mathematics, and permission from the director of undergraduate studies are required. The graph represents the calculus portion."
+  },
+  "MATH UN3952": {
+    "pre": "MATH UN1202/MATH UN1205/MATH UN1208",
+    "note": "Two years of calculus, at least a year of further mathematics, and permission from the director of undergraduate studies are required. The graph represents the calculus portion."
+  },
+  "MATH UN3994": {
+    "pre": "",
+    "note": "Mathematics majors need a faculty sponsor and written approval from both the sponsor and director of undergraduate studies."
+  },
+  "MATH GU4007": {
+    "pre": "MATH UN3007"
+  },
+  "MATH GU4032": {
+    "pre": "MATH UN1102+MATH UN1201+MATH UN2010/MATH UN1202/MATH UN1205/MATH UN1208",
+    "note": "Requires either three terms of calculus plus linear algebra, or four terms of calculus. The accelerated and honors routes cover equivalent material."
+  },
+  "MATH GU4041": {
+    "pre": "MATH UN1202+MATH UN2010/MATH UN1205+MATH UN2010/MATH UN1208"
+  },
+  "MATH GU4042": {
+    "pre": "MATH GU4041",
+    "note": "Modern Algebra II requires completion of the first term."
+  },
+  "MATH GU4043": {
+    "pre": "MATH GU4041;MATH GU4042"
+  },
+  "MATH GU4044": {
+    "pre": "MATH UN2010/MATH UN1208;MATH GU4041"
+  },
+  "MATH GU4045": {
+    "pre": "MATH GU4041;MATH GU4042;MATH UN3007",
+    "description": "Studies affine and projective varieties, Riemann surfaces, divisors and related algebraic geometry."
+  },
+  "MATH GU4051": {
+    "pre": "MATH UN1202+MATH UN2010/MATH UN1205+MATH UN2010/MATH UN1208;MATH GU4041",
+    "note": "Introductory group theory is required. MATH GU4041 is the example in the bulletin. Honors B or Modern Analysis I is also recommended.",
+    "description": "Introduces metric and topological spaces, continuity, compactness and fundamental groups."
+  },
+  "MATH GU4052": {
+    "pre": "MATH GU4051/MATH GU4061",
+    "note": "Linear algebra is recommended and may be taken concurrently.",
+    "description": "Examines algebraic and geometric properties of knots in three dimensions."
+  },
+  "MATH GU4053": {
+    "pre": "MATH UN2010/MATH UN1208;MATH GU4041;MATH GU4051"
+  },
+  "MATH GU4061": {
+    "pre": "MATH UN1202+MATH UN2010/MATH UN1205+MATH UN2010/MATH UN1208",
+    "note": "Calculus IV or equivalent and linear algebra are required.",
+    "description": "Develops rigorous real analysis through metric spaces, sequences, continuity, differentiation and integration."
+  },
+  "MATH GU4062": {
+    "pre": "MATH GU4061",
+    "note": "The second term follows Introduction to Modern Analysis I.",
+    "description": "Continues real analysis with power series, the implicit function theorem, measure and integration."
+  },
+  "MATH GU4065": {
+    "pre": "MATH UN1207+MATH UN1208/MATH GU4061"
+  },
+  "MATH GU4081": {
+    "pre": "MATH GU4051/MATH GU4061;MATH UN2010/MATH UN1208"
+  },
+  "MATH GU4155": {
+    "pre": "MATH GU4061/MATH UN3007"
+  },
+  "MATH GU4392": {
+    "pre": "MATH GU4391",
+    "note": "The course description identifies this as the continuation of GU4391."
+  },
+  "APMA E2000": {
+    "pre": "MATH UN1101;MATH UN1102",
+    "note": "The CS bulletin lists Calculus I and II as preparation for APMA E2000.",
+    "sourceExtra": "https://bulletin.columbia.edu/columbia-college/departments-instruction/computer-science/#requirementstext"
+  },
+  "STAT UN1201": {
+    "pre": "MATH UN1101/MATH UN1207",
+    "note": "The bulletin specifies calculus preparation. The graph shows Columbia course routes. Equivalent preparation may also qualify.",
+    "description": "Uses calculus to study probability distributions, statistical estimation, confidence intervals and hypothesis tests."
+  },
+  "STAT UN2102": {
+    "pre": "",
+    "note": "An introductory statistics course may be completed before or alongside this class. The listing recommends STAT UN1101.",
+    "co": "STAT UN1101/STAT UN1201/STAT UN1001"
+  },
+  "STAT UN2103": {
+    "pre": "STAT UN1101/STAT UN1201/STAT UN1001",
+    "note": "The catalog requires introductory statistics and recommends STAT UN1101 and familiarity with R."
+  },
+  "STAT UN2104": {
+    "pre": "",
+    "note": "STAT UN2103 and prior experience with R are recommended."
+  },
+  "STAT UN3105": {
+    "pre": "",
+    "note": "Both UN2103 and UN2104 are recommended. Students without R experience may benefit from UN2102."
+  },
+  "STAT UN3106": {
+    "pre": "STAT UN2103",
+    "note": "The department recommends prior R experience or UN2102."
+  },
+  "STAT GU4001": {
+    "pre": "MATH UN1202/MATH UN1205/MATH UN1208",
+    "note": "Preparation through multiple integration and infinite series is required. The selected calculus route is one way to cover those topics."
+  },
+  "STAT GU4203": {
+    "pre": "MATH UN1101/MATH UN1207",
+    "note": "One semester of calculus is required. A second semester and introductory statistics are recommended. Honors or equivalent preparation may satisfy calculus.",
+    "description": "Covers probability laws, random variables, joint distributions, conditional expectation and limit theorems."
+  },
+  "STAT GU4204": {
+    "pre": "STAT GU4203;MATH UN1101/MATH UN1207",
+    "note": "A semester of calculus is also required. Two or three semesters are recommended."
+  },
+  "STAT GU4205": {
+    "pre": "STAT GU4204;MATH UN2010/MATH UN2015/APMA E3101/COMS W3251/MATH UN1208",
+    "note": "Requires Statistical Inference or the equivalent and a course in linear algebra. The graph shows Columbia courses covering linear algebra."
+  },
+  "STAT GU4206": {
+    "pre": "STAT GU4204;STAT GU4205"
+  },
+  "STAT GU4207": {
+    "pre": "STAT GU4203;MATH UN1102/MATH UN1208",
+    "note": "Requires probability and two semesters of calculus. A third semester of calculus is recommended.",
+    "description": "Studies Poisson processes, renewal theory, Markov chains and applications in inventory and queues."
+  },
+  "STAT GU4262": {
+    "pre": "STAT GU4203",
+    "note": "Elementary Stochastic Processes is recommended."
+  },
+  "STAT GU4263": {
+    "pre": "STAT GU4204",
+    "note": "Linear Regression Models is recommended.",
+    "description": "Introduces inference and prediction for time series with ARMA, ARCH, GARCH and nonlinear models."
+  },
+  "STAT GU4264": {
+    "pre": "STAT GU4203",
+    "note": "Elementary Stochastic Processes is recommended.",
+    "description": "Develops continuous-time stochastic models, stochastic integrals and stochastic differential equations."
+  },
+  "STAT GU4281": {
+    "pre": "MATH UN1101/MATH UN1207",
+    "note": "The bulletin specifies calculus preparation. The graph shows Columbia course routes. Equivalent preparation may also qualify."
+  },
+  "STAT GU4291": {
+    "pre": "STAT GU4205;STAT GU4221/STAT GU4222/STAT GU4223/STAT GU4224/STAT GU4231/STAT GU4232/STAT GU4233/STAT GU4234/STAT GU4235/STAT GU4241/STAT GU4242/STAT GU4243/STAT GU4244/STAT GU4247/STAT GU4261",
+    "note": "Requires GU4205 and an additional statistics course numbered GU4221 through GU4261."
+  },
+  "STAT GU4224": {
+    "pre": "STAT GU4204;STAT GU4205",
+    "note": "The full entry also calls for statistical modeling and data analysis. GU4204 and GU4205 are its examples for inference and modeling respectively. Equivalent preparation can satisfy these requirements."
+  },
+  "STAT GU4242": {
+    "pre": "STAT GU4241",
+    "note": "The Computer Science bulletin links the Q4242 listing, which specifies GU4241. The newer GU4242 listing omits a prerequisite. This graph follows the published Q4242 sequence. Confirm current expectations with the instructor.",
+    "sourceExtra": "https://bulletin.columbia.edu/search/?P=STAT%20Q4242"
+  },
+  "STAT GU4243": {
+    "pre": "STAT UN3106/STAT GU4241/COMS W4771",
+    "note": "Columbia describes prior R or Python programming and working knowledge of probability, statistics, modeling, data mining and machine learning. The graph shows examples of machine learning preparation. These subjects can also be learned elsewhere.",
+    "sourceExtra": "https://sps.columbia.edu/curriculum-courses-0"
+  }
+}

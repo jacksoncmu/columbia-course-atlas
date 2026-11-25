@@ -1,0 +1,188 @@
+{
+  "COMS W1007": {
+    "title": "Honors Introduction to Computer Science",
+    "credits": [
+      3,
+      3
+    ],
+    "pre": "",
+    "description": "An honors introduction to abstraction, models and algorithms. Students design data structures and implement programs in Java.",
+    "note": "The archived honors course requires a score of 4 or 5 on AP Computer Science, or comparable experience. The current major and minor still list this course number. Check the available offering with CS Advising.",
+    "sourceExtra": "https://www.cs.columbia.edu/education/courses/course/COMSW1007-1/26350/"
+  },
+  "COMS W2702": {
+    "syllabus": {
+      "label": "Fall 2026 syllabus",
+      "url": "https://www.cs.columbia.edu/~cannon/2702/"
+    }
+  },
+  "COMS W3157": {
+    "syllabus": {
+      "label": "Course syllabus",
+      "url": "https://www.cs.columbia.edu/~jae/3157/"
+    }
+  },
+  "COMS W3203": {
+    "syllabus": {
+      "label": "Fall 2026 syllabus",
+      "url": "https://www.cs.columbia.edu/~gtchuang/discrete/syllabus.html"
+    }
+  },
+  "COMS W3251": {
+    "description": "Uses matrix operations and numerical examples to study linear systems, vector spaces, least squares, singular value decompositions and eigenvectors.",
+    "sourceExtra": "https://www.cs.columbia.edu/~djhsu/CLA/",
+    "syllabus": {
+      "label": "Fall 2022 course outline and lecture notes",
+      "url": "https://www.cs.columbia.edu/~djhsu/CLA/"
+    }
+  },
+  "COMS W4701": {
+    "pre": "COMS W3134/COMS W3136/COMS W3137;STAT UN1201/STAT GU4001/IEOR E3658/MATH UN2015/STAT GU4203/MATH GU4155",
+    "note": "The Bulletin names three data structures alternatives and asks for any course in probability. The probability choices shown are examples. Python experience is recommended. AI minor students planning around COMS W2132 or IEOR E2000 should confirm data structures equivalency with the instructor.",
+    "syllabus": {
+      "label": "Archived AI syllabus",
+      "url": "https://www.cs.columbia.edu/~kathy/cs4701/syllabus.html"
+    }
+  },
+  "COMS W4705": {
+    "pre": "COMS W3134/COMS W3136/COMS W3137",
+    "note": "The Bulletin lists data structures and discusses Python experience. Probability, linear algebra and prior or concurrent AI or machine learning are recommended preparation. Only one of COMS W4705 and COMS BC3705 earns credit.",
+    "syllabus": {
+      "label": "Fall 2026 section 2 course outline",
+      "url": "https://www.cs.columbia.edu/~johnhew/coms4705/"
+    }
+  },
+  "COMS W4706": {
+    "pre": "COMS W3134/COMS W3136/COMS W3137",
+    "note": "Instructor permission is an alternative to the data structures prerequisite.",
+    "syllabus": {
+      "label": "Spring 2012 syllabus",
+      "url": "https://www.cs.columbia.edu/~julia/courses/CS4706/syllabus12.htm"
+    }
+  },
+  "COMS W4710": {
+    "pre": "COMS W2132/COMS W3134/COMS W3136/COMS W3137/IEOR E2000",
+    "note": "Python proficiency and basic probability and statistics are expected. Previous machine learning exposure is recommended."
+  },
+  "COMS W4721": {
+    "pre": "",
+    "description": "A graduate-level introduction to supervised learning for data analysis, including principles of statistical learning and methods for building predictive models.",
+    "note": "The Data Science Institute specifies prior preparation in linear algebra, probability and statistics. The department lists no numbered prerequisite for the Spring 2026 section. Section access can depend on program and seat availability.",
+    "sourceExtra": "https://datascience.columbia.edu/education/certification-data-science"
+  },
+  "COMS W4725": {
+    "pre": "COMS W4701"
+  },
+  "COMS W4726": {
+    "pre": "",
+    "note": "The Bulletin expects the knowledge from an introductory machine learning course, plus Python programming. Equivalent prior learning is accepted."
+  },
+  "COMS W4731": {
+    "pre": "",
+    "note": "The course requires basic calculus, linear algebra and C programming. The Bulletin identifies no specific course numbers for this preparation.",
+    "syllabus": {
+      "label": "Instructor’s lecture series",
+      "url": "https://fpcv.cs.columbia.edu/"
+    }
+  },
+  "COMS W4732": {
+    "pre": "COMS W4731",
+    "note": "Also requires fundamentals of calculus, linear algebra and Python programming."
+  },
+  "COMS W4733": {
+    "pre": "COMS W3134/COMS W3136/COMS W3137;COMS W3251/MATH UN2010/APMA E2101/APMA E3101/MATH UN2015;STAT UN1201/STAT GU4001/IEOR E3658/MATH UN2015",
+    "note": "Students should be proficient in Python or a comparable language.",
+    "syllabus": {
+      "label": "Fall 2019 course outline",
+      "url": "https://www.cs.columbia.edu/~allen/F19/about.html"
+    }
+  },
+  "COMS W4735": {
+    "pre": "COMS W3134/COMS W3136/COMS W3137"
+  },
+  "COMS W4737": {
+    "pre": "",
+    "note": "Sophomore-level preparation in CS, engineering or a related field is required. COMS E6737 is the graduate counterpart and carries overlapping credit."
+  },
+  "COMS W4762": {
+    "pre": "",
+    "note": "Requires proficiency in Python, R or Julia. An introductory machine learning course is recommended."
+  },
+  "COMS W4771": {
+    "pre": "MATH UN1201/MATH UN1205/APMA E2000;COMS W3251/MATH UN2010/MATH UN2015;STAT UN1201/STAT GU4001/IEOR E3658/MATH UN2015;COMS W3203;COMS W3134",
+    "note": "The graph follows the current Bulletin. It lists these courses as examples of the expected mathematical and programming background. W3770 is recommended as a refresher. The linked instructor syllabus describes equivalent preparation for that section.",
+    "syllabus": {
+      "label": "Fall 2025 syllabus",
+      "url": "https://www.cs.columbia.edu/~djhsu/coms4771-f25/"
+    }
+  },
+  "COMS W4772": {
+    "pre": "COMS W4771",
+    "note": "The Bulletin also lists instructor permission and prior knowledge of linear algebra and introductory probability or statistics."
+  },
+  "COMS W4773": {
+    "pre": "COMS W4771",
+    "description": "Studies theoretical guarantees for learning algorithms, including statistical learning, boosting, optimization and concentration bounds.",
+    "note": "The W-numbered Bulletin record lists W4771. Daniel Hsu’s Fall 2026 section instead requires an advanced proof-based course and expects probability and linear algebra. For that section, prior machine learning is optional.",
+    "sourceExtra": "https://www.cs.columbia.edu/~djhsu/coms4773-f26/syllabus.html",
+    "syllabus": {
+      "label": "Fall 2026 syllabus",
+      "url": "https://www.cs.columbia.edu/~djhsu/coms4773-f26/syllabus.html"
+    }
+  },
+  "COMS W4774": {
+    "pre": "COMS W4771",
+    "note": "The Bulletin also expects probability and statistics, linear algebra, multivariable calculus, and programming with algorithms.",
+    "syllabus": {
+      "label": "Spring 2021 syllabus",
+      "url": "https://www.cs.columbia.edu/~djhsu/coms4774-s21/"
+    }
+  },
+  "COMS W4775": {
+    "pre": "COMS W4771",
+    "note": "Expect to use discrete mathematics, calculus, statistics, experimental design and programming.",
+    "syllabus": {
+      "label": "Fall 2023 syllabus",
+      "url": "https://www.causalai.net/cs4775_syllabus23f.pdf"
+    }
+  },
+  "COMS W4776": {
+    "pre": "COMS W4771;COMS W3251/MATH UN2010/MATH UN2015;STAT UN1201/STAT GU4001/IEOR E3658/MATH UN2015/STAT GU4203"
+  },
+  "COMS W4995": {
+    "pre": "",
+    "note": "Each section has its own prerequisites and syllabus. For example, Fall 2026 section 015, Designing LLM Agents, requires Python proficiency. For AI minor credit, choose a relevant topic and confirm the section with CS Advising.",
+    "sourceExtra": "https://www.cs.columbia.edu/education/courses/",
+    "syllabus": {
+      "label": "Designing LLM Agents, Fall 2026 section 015 syllabus",
+      "url": "https://designing-agents.github.io/syllabus.html"
+    }
+  },
+  "COMS E6998": {
+    "pre": "",
+    "note": "Preparation depends on the section. The Fall 2026 Algorithms in LLMs section expects proof writing, algorithms and randomness. For AI minor credit, confirm the relevance of your section with CS Advising.",
+    "sourceExtra": "https://www.cs.columbia.edu/education/courses/",
+    "syllabus": {
+      "label": "Algorithms in Large Language Models, Fall 2026 course outline",
+      "url": "https://edoliberty.com/algorithms-in-large-language-models/"
+    }
+  },
+  "ELEN E4720": {
+    "pre": "",
+    "description": "Studies supervised and unsupervised machine learning for signal and data analysis. Methods include regression, classification, clustering and sequential models.",
+    "note": "Columbia Engineering’s course description specifies basic linear algebra and calculus, introductory probability and statistics, and programming experience.",
+    "sourceExtra": "https://bulletin.columbia.edu/columbia-engineering/bulletin-pdf/SEAS_Engineering_Bulletin_2020_v6.pdf"
+  },
+  "COMS BC3160": {
+    "pre": "COMS W3157;COMS W3251/APMA E3101/APMA E2101/MATH UN2010/MATH UN2015;MATH UN1101",
+    "note": "Requires Calculus I or higher. This Barnard course overlaps with COMS W4160 for credit."
+  },
+  "COMS BC3705": {
+    "pre": "COMS W3134/COMS W3136/COMS W3137",
+    "note": "Equivalent data structures preparation is accepted. Background in probability or statistics and in linear algebra is also required. Python experience is strongly encouraged. This course overlaps with COMS W4705 for credit."
+  },
+  "COMS BC3711": {
+    "pre": "COMS W3134",
+    "note": "Equivalent data structures preparation is accepted."
+  }
+}

@@ -1,0 +1,538 @@
+{
+  "ECON BC1003": {
+    "pre": "",
+    "co": "",
+    "note": "Barnard introductory economics overlaps Columbia ECON UN1105. Choose one.",
+    "syllabus": {
+      "label": "Fall 2020 syllabus",
+      "url": "https://economics.barnard.edu/sites/default/files/inline-files/EconBC1003_sec03_IntroEconReasoning_F20.pdf"
+    }
+  },
+  "ECON BC1007": {
+    "note": "Students who have already completed intermediate microeconomics cannot enroll in this course."
+  },
+  "ECON BC2010": {
+    "pre": "",
+    "note": "The individual course entry lists no specific college course prerequisite."
+  },
+  "ECON BC2012": {
+    "pre": "",
+    "note": "The individual course entry lists no specific college course prerequisite."
+  },
+  "ECON BC2017": {
+    "pre": "ECON UN1105/ECON BC1003",
+    "sourceExtra": "https://economics.barnard.edu/sites/default/files/inline-files/PE%20Majors%20Form.pdf"
+  },
+  "ECON BC2020": {
+    "pre": "",
+    "note": "The individual course entry lists no specific college course prerequisite."
+  },
+  "ECON BC2075": {
+    "pre": "ECON UN1105/ECON BC1003",
+    "sourceExtra": "https://economics.barnard.edu/sites/default/files/inline-files/PE%20Majors%20Form.pdf"
+  },
+  "ECON BC2224": {
+    "pre": "ECON UN1105/ECON BC1003",
+    "sourceExtra": "https://economics.barnard.edu/sites/default/files/inline-files/PE%20Majors%20Form.pdf"
+  },
+  "ECON BC2411": {
+    "pre": "",
+    "co": "",
+    "note": "Includes weekly recitation."
+  },
+  "ECON BC3010": {
+    "pre": "ECON UN1105/ECON BC1003;STAT UN1201/ECON BC2411/STAT UN1101/PSYC BC1101/SIEO W3600/SIEO W4150/BUSI G6014;ECON UN3211/ECON BC3035",
+    "sourceExtra": "https://bulletin.columbia.edu/pdf/Barnard%20College%20Catalogue%202023-2024.pdf",
+    "note": "The section lists introductory economics and statistics alternatives using some former course numbers. Barnard also identifies intermediate microeconomics for economics-major credit."
+  },
+  "ECON BC3011": {
+    "pre": "ECON UN3211/ECON BC3035/ECON UN3213/ECON BC3033",
+    "sourceExtra": "https://economics.barnard.edu/sites/default/files/inline-files/PE%20Majors%20Form.pdf"
+  },
+  "ECON BC3012": {
+    "pre": "ECON UN3211/ECON BC3035;STAT UN1201/ECON BC2411/STAT UN1101/PSYC BC1101",
+    "sourceExtra": "https://economics.barnard.edu/sites/default/files/inline-files/PE%20Majors%20Form.pdf"
+  },
+  "ECON BC3013": {
+    "pre": "ECON UN3211/ECON BC3035/ECON UN3213/ECON BC3033",
+    "sourceExtra": "https://economics.barnard.edu/sites/default/files/inline-files/PE%20Majors%20Form.pdf"
+  },
+  "ECON BC3014": {
+    "pre": "ECON UN3211/ECON BC3035/ECON UN3213/ECON BC3033",
+    "sourceExtra": "https://economics.barnard.edu/sites/default/files/inline-files/PE%20Majors%20Form.pdf"
+  },
+  "ECON BC3017": {
+    "pre": "ECON UN3211/ECON BC3035",
+    "sourceExtra": "https://economics.barnard.edu/sites/default/files/inline-files/PE%20Majors%20Form.pdf"
+  },
+  "ECON BC3019": {
+    "pre": "ECON UN3211/ECON BC3035",
+    "sourceExtra": "https://economics.barnard.edu/sites/default/files/inline-files/PE%20Majors%20Form.pdf"
+  },
+  "ECON BC3022": {
+    "pre": "ECON UN3211/ECON BC3035/ECON UN3213/ECON BC3033",
+    "sourceExtra": "https://catalog.barnard.edu/pdf/Barnard%20College%20Catalogue%202025-2026.pdf",
+    "title": "Economic History of Europe",
+    "credits": [
+      3,
+      3
+    ],
+    "description": "Examines Europe’s industrial revolution and how its consequences shaped economic development around the world.",
+    "note": "Listed in the 2026–27 Columbia elective table. The course details come from Barnard’s 2025–26 catalog."
+  },
+  "ECON BC3023": {
+    "pre": "ECON UN3211/ECON BC3035/ECON UN3213/ECON BC3033",
+    "sourceExtra": "https://economics.barnard.edu/sites/default/files/inline-files/PE%20Majors%20Form.pdf"
+  },
+  "ECON BC3024": {
+    "pre": "ECON UN3211/ECON BC3035/ECON UN3213/ECON BC3033",
+    "sourceExtra": "https://economics.barnard.edu/sites/default/files/inline-files/PE%20Majors%20Form.pdf"
+  },
+  "ECON BC3026": {
+    "pre": "ECON UN3211/ECON BC3035",
+    "sourceExtra": "https://economics.barnard.edu/sites/default/files/inline-files/PE%20Majors%20Form.pdf"
+  },
+  "ECON BC3027": {
+    "pre": "ECON UN3211/ECON BC3035/ECON UN3213/ECON BC3033",
+    "sourceExtra": "https://economics.barnard.edu/sites/default/files/inline-files/PE%20Majors%20Form.pdf"
+  },
+  "ECON BC3029": {
+    "pre": "ECON UN3211/ECON BC3035/ECON UN3213/ECON BC3033;ECON UN3412",
+    "sourceExtra": "https://economics.barnard.edu/sites/default/files/inline-files/PE%20Majors%20Form.pdf"
+  },
+  "ECON BC3031": {
+    "pre": "ECON UN3211/ECON BC3035",
+    "sourceExtra": "https://economics.barnard.edu/sites/default/files/inline-files/PE%20Majors%20Form.pdf"
+  },
+  "ECON BC3033": {
+    "pre": "ECON UN1105/ECON BC1003",
+    "sourceExtra": "https://economics.barnard.edu/sites/default/files/inline-files/PE%20Majors%20Form.pdf",
+    "note": "Also assumes high-school algebra and analytic geometry. Instructor permission is an alternative."
+  },
+  "ECON BC3035": {
+    "pre": "ECON UN1105/ECON BC1003;MATH UN1101/ECON BC1007",
+    "sourceExtra": "https://economics.barnard.edu/sites/default/files/inline-files/PE%20Majors%20Form.pdf",
+    "note": "One semester of calculus or Barnard Math Methods is required. The instructor may approve equivalent preparation.",
+    "syllabus": {
+      "label": "Barnard syllabus",
+      "url": "https://economics.barnard.edu/sites/default/files/inline-files/BC3035-Syllabus.pdf"
+    }
+  },
+  "ECON BC3038": {
+    "pre": "ECON UN3213/ECON BC3033",
+    "sourceExtra": "https://economics.barnard.edu/sites/default/files/inline-files/PE%20Majors%20Form.pdf"
+  },
+  "ECON BC3039": {
+    "pre": "ECON UN1105/ECON BC1003;ECON UN3211/ECON BC3035",
+    "sourceExtra": "https://economics.barnard.edu/sites/default/files/inline-files/PE%20Majors%20Form.pdf",
+    "note": "The individual listing specifies intermediate microeconomics for economics majors."
+  },
+  "ECON BC3041": {
+    "pre": "ECON UN1105/ECON BC1003",
+    "sourceExtra": "https://economics.barnard.edu/sites/default/files/inline-files/PE%20Majors%20Form.pdf"
+  },
+  "ECON BC3043": {
+    "pre": "ECON UN3211/ECON BC3035;ECON UN3213/ECON BC3033",
+    "sourceExtra": "https://economics.barnard.edu/sites/default/files/inline-files/PE%20Majors%20Form.pdf"
+  },
+  "ECON BC3045": {
+    "pre": "ECON UN3213/ECON BC3033",
+    "sourceExtra": "https://catalog.barnard.edu/barnard-college/courses-instruction/archive/Barnard_CourseLeaf_Catalogue_2018-19.pdf",
+    "title": "Business Cycles",
+    "credits": [
+      3,
+      3
+    ],
+    "description": "Applies macroeconomic models to booms, recessions and policy decisions using episodes from US economic history.",
+    "note": "The current search record is empty. The course details come from the archived Barnard catalog."
+  },
+  "ECON BC3047": {
+    "pre": "ECON UN3211/ECON BC3035;ECON UN3213/ECON BC3033",
+    "sourceExtra": "https://catalog.barnard.edu/barnard-college/courses-instruction/archive/Barnard_CourseLeaf_Catalogue_2018-19.pdf",
+    "title": "International Trade",
+    "credits": [
+      3,
+      3
+    ],
+    "description": "Studies patterns of world trade, economic models of comparative advantage, international production networks and trade policy.",
+    "note": "The current search record is empty. The course details come from the archived Barnard catalog."
+  },
+  "ECON BC3048": {
+    "pre": "ECON UN3211/ECON BC3035",
+    "sourceExtra": "https://economics.barnard.edu/sites/default/files/inline-files/PE%20Majors%20Form.pdf"
+  },
+  "ECON BC3049": {
+    "pre": "ECON UN3211/ECON BC3035;STAT UN1201/ECON BC2411/STAT UN1101/PSYC BC1101",
+    "sourceExtra": "https://economics.barnard.edu/sites/default/files/inline-files/PE%20Majors%20Form.pdf"
+  },
+  "ECON BC3080": {
+    "pre": "ECON UN3211/ECON BC3035",
+    "sourceExtra": "https://doc.sis.columbia.edu/subj/ECON/X3080-20231-001/",
+    "note": "The registrar specifies Intermediate Microeconomic Theory in the section notes. Barnard recognizes the Columbia intermediate microeconomics equivalent."
+  },
+  "ECON BC3270": {
+    "pre": "ECON UN3211/ECON BC3035;ECON UN3213/ECON BC3033",
+    "sourceExtra": "https://economics.barnard.edu/sites/default/files/inline-files/PE%20Majors%20Form.pdf"
+  },
+  "ECON GU4020": {
+    "pre": "ECON UN3211;ECON UN3213;STAT UN1201/STAT GU4001/STAT GU4204",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON GU4211": {
+    "pre": "ECON UN3211;ECON UN3213;MATH UN2010",
+    "co": "MATH UN2500/MATH GU4061;ECON GU4212",
+    "sourceExtra": "https://bulletin.columbia.edu/columbia-college/departments-instruction/economics/#requirementstext",
+    "syllabus": {
+      "label": "Susan Elmes’s syllabus",
+      "url": "https://qmss.columbia.edu/sites/qmss.columbia.edu/files/content/docs/AdvancedMicroeconomicsECON.pdf"
+    }
+  },
+  "ECON GU4212": {
+    "pre": "ECON UN3211;ECON UN3213;MATH UN2010",
+    "co": "MATH UN2500/MATH GU4061",
+    "sourceExtra": "https://doc.sis.columbia.edu/subj/ECON/GU4212-20251-001/",
+    "title": "Advanced Microeconomics Discussion",
+    "credits": [
+      0,
+      0
+    ],
+    "description": "Discussion section for Advanced Microeconomics. Take alongside the lecture."
+  },
+  "ECON GU4213": {
+    "pre": "ECON UN3211;ECON UN3213;ECON UN3412;MATH UN2010",
+    "co": "ECON GU4214",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON GU4214": {
+    "pre": "ECON UN3211;ECON UN3213;ECON UN3412;MATH UN2010",
+    "co": "",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/",
+    "title": "Advanced Macroeconomics Discussion",
+    "credits": [
+      0,
+      0
+    ],
+    "description": "Discussion section for Advanced Macroeconomics. Take alongside the lecture."
+  },
+  "ECON GU4228": {
+    "pre": "ECON UN3211;ECON UN3213;STAT UN1201/STAT GU4001/STAT GU4204",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON GU4230": {
+    "pre": "ECON UN3211;ECON UN3213;STAT UN1201/STAT GU4001/STAT GU4204",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON GU4235": {
+    "pre": "ECON UN3211;ECON UN3213",
+    "sourceExtra": "https://www.college.columbia.edu/sites/default/files/columbia_college_bulletin_with_course_listings_2022-2023_pdf_archive.pdf",
+    "title": "Historical Foundations of Modern Economics",
+    "credits": [
+      3,
+      3
+    ],
+    "description": "Studies the questions and ideas that shaped economic theory from Adam Smith through Keynes."
+  },
+  "ECON GU4251": {
+    "pre": "ECON UN3211;ECON UN3213",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON GU4260": {
+    "pre": "ECON UN3211;ECON UN3213;STAT UN1201/STAT GU4001/STAT GU4204",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON GU4280": {
+    "pre": "ECON UN3211;ECON UN3213;STAT UN1201/STAT GU4001/STAT GU4204",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON GU4301": {
+    "pre": "ECON UN3211;ECON UN3213",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON GU4321": {
+    "pre": "ECON UN3211;ECON UN3213",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON GU4325": {
+    "pre": "ECON UN3211;ECON UN3213",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON GU4330": {
+    "pre": "ECON UN3211;ECON UN3213;STAT UN1201/STAT GU4001/STAT GU4204",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/announcements/newsletter/"
+  },
+  "ECON GU4370": {
+    "pre": "ECON UN3211;ECON UN3213;STAT UN1201/STAT GU4001/STAT GU4204",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON GU4400": {
+    "pre": "ECON UN3211;ECON UN3213",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON GU4411": {
+    "title": "Advanced Econometrics Discussion",
+    "credits": [
+      0,
+      0
+    ],
+    "description": "Required discussion section accompanying ECON GU4412.",
+    "pre": "",
+    "co": "",
+    "sourceExtra": "https://doc.sis.columbia.edu/subj/ECON/W4411-20253-001/"
+  },
+  "ECON GU4412": {
+    "pre": "ECON UN3211;ECON UN3213;ECON UN3412;MATH UN2010",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/",
+    "note": "Required discussion section accompanies the lecture.",
+    "co": "ECON GU4411"
+  },
+  "ECON GU4413": {
+    "pre": "ECON UN3211;ECON UN3213;ECON UN3412",
+    "co": "MATH UN2010",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON GU4415": {
+    "pre": "ECON UN3211;ECON UN3213",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON GU4420": {
+    "pre": "ECON UN3211;ECON UN3213;ECON UN3412",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/announcements/newsletter/",
+    "note": "The department’s spring 2027 course announcement specifies intermediate microeconomics, macroeconomics and econometrics."
+  },
+  "ECON GU4438": {
+    "pre": "ECON UN3211;ECON UN3213",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON GU4465": {
+    "pre": "ECON UN3211;ECON UN3213",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON GU4480": {
+    "pre": "ECON UN3211;ECON UN3213",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON GU4500": {
+    "pre": "ECON UN3211;ECON UN3213",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON GU4505": {
+    "pre": "ECON UN3211;ECON UN3213",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/",
+    "syllabus": {
+      "label": "Archived course syllabus",
+      "url": "https://www.columbia.edu/~ss3501/teaching/syllabus_W4505.pdf"
+    }
+  },
+  "ECON GU4526": {
+    "pre": "ECON UN3211;ECON UN3213",
+    "sourceExtra": "https://www.college.columbia.edu/sites/default/files/columbia_college_bulletin_with_course_listings_2022-2023_pdf_archive.pdf",
+    "title": "Transition Reforms, Globalization and Financial Crisis",
+    "credits": [
+      3,
+      3
+    ]
+  },
+  "ECON GU4615": {
+    "pre": "ECON UN3211;ECON UN3213",
+    "sourceExtra": "https://www.college.columbia.edu/sites/default/files/columbia_college_bulletin_with_course_listings_2022-2023_pdf_archive.pdf",
+    "description": "Applies economic reasoning to property rights, contract law, torts and other legal institutions.",
+    "title": "Law and Economics",
+    "credits": [
+      3,
+      3
+    ]
+  },
+  "ECON GU4625": {
+    "pre": "ECON UN3211;ECON UN3213",
+    "sourceExtra": "https://www.college.columbia.edu/sites/default/files/columbia_college_bulletin_with_course_listings_2022-2023_pdf_archive.pdf",
+    "title": "Economics of the Environment",
+    "credits": [
+      3,
+      3
+    ],
+    "description": "Uses microeconomic theory to study environmental protection, incentives to pollute and economic instruments for regulating pollution."
+  },
+  "ECON GU4630": {
+    "pre": "ECON UN3211;ECON UN3213;STAT UN1201/STAT GU4001/STAT GU4204",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON GU4700": {
+    "pre": "ECON UN3211;ECON UN3213;STAT UN1201/STAT GU4001/STAT GU4204",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON GU4710": {
+    "pre": "ECON UN3211;ECON UN3213;STAT UN1201/STAT GU4001/STAT GU4204",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON GU4720": {
+    "pre": "ECON UN3211;ECON UN3213",
+    "sourceExtra": "https://bulletin.columbia.edu/columbia-college/departments-instruction/economics/#requirementstext",
+    "note": "The department requires both intermediate theory courses for all Columbia 3000- and 4000-level electives."
+  },
+  "ECON GU4750": {
+    "pre": "ECON UN3211;ECON UN3213",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON GU4840": {
+    "pre": "ECON UN3211;ECON UN3213",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON GU4850": {
+    "pre": "ECON UN3211;ECON UN3213;STAT UN1201/STAT GU4001/STAT GU4204",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON GU4860": {
+    "pre": "ECON UN3211;ECON UN3213;STAT UN1201/STAT GU4001/STAT GU4204",
+    "co": "ECON UN3412",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/",
+    "note": "The course entry lists econometrics as a prerequisite. The department’s prerequisite table permits taking it concurrently and also requires calculus-based statistics."
+  },
+  "ECON GU4911": {
+    "pre": "ECON UN3211;ECON UN3213;ECON UN3412",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON GU4913": {
+    "pre": "ECON UN3211;ECON UN3213;ECON UN3412",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON GU4918": {
+    "pre": "ECON UN3211;ECON UN3213;ECON UN3412",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON GU4999": {
+    "pre": "ECON UN3211;ECON UN3213;ECON UN3412",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/",
+    "credits": [
+      3,
+      3
+    ],
+    "note": "Three points per semester for two semesters. Honors admission requires director approval and a major GPA of at least 3.7."
+  },
+  "ECON UN1105": {
+    "pre": "",
+    "co": "ECON UN1155",
+    "title": "Principles of Economics",
+    "syllabus": {
+      "label": "Archived course syllabus",
+      "url": "https://www.columbia.edu/itc/sipa/w1105y/client_edit/course_syllabus.html"
+    }
+  },
+  "ECON UN1155": {
+    "pre": "",
+    "co": "",
+    "credits": [
+      0,
+      0
+    ],
+    "description": "Required discussion section accompanying Principles of Economics."
+  },
+  "ECON UN2105": {
+    "pre": "ECON UN1105",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON UN2257": {
+    "pre": "ECON UN1105",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON UN2261": {
+    "pre": "ECON UN1105",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON UN2300": {
+    "pre": "ECON UN1105",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/announcements/newsletter/"
+  },
+  "ECON UN3025": {
+    "pre": "ECON UN3211;ECON UN3213;STAT UN1201/STAT GU4001/STAT GU4204",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON UN3211": {
+    "pre": "ECON UN1105;MATH UN1101/MATH UN1102/MATH UN1207;MATH UN1201/MATH UN1205/MATH UN1207",
+    "sourceExtra": "https://bulletin.columbia.edu/columbia-college/departments-instruction/economics/#requirementstext",
+    "title": "Intermediate Microeconomics",
+    "co": "ECON UN3212"
+  },
+  "ECON UN3212": {
+    "title": "Intermediate Microeconomics Discussion",
+    "credits": [
+      0,
+      0
+    ],
+    "description": "Required discussion section accompanying ECON UN3211.",
+    "pre": "",
+    "co": "",
+    "sourceExtra": "https://doc.sis.columbia.edu/subj/ECON/W3212-20271-001/"
+  },
+  "ECON UN3213": {
+    "pre": "ECON UN1105;MATH UN1101/MATH UN1102/MATH UN1207",
+    "co": "MATH UN1201/MATH UN1205/MATH UN1207;ECON UN3214",
+    "sourceExtra": "https://bulletin.columbia.edu/columbia-college/departments-instruction/economics/#requirementstext",
+    "title": "Intermediate Macroeconomics",
+    "syllabus": {
+      "label": "Spring 2015 syllabus",
+      "url": "https://columbia.edu/~ss3501/teaching/syllabus_W3213.pdf"
+    }
+  },
+  "ECON UN3214": {
+    "title": "Intermediate Macroeconomics Discussion",
+    "credits": [
+      0,
+      0
+    ],
+    "description": "Required discussion section accompanying ECON UN3213.",
+    "pre": "",
+    "co": "",
+    "sourceExtra": "https://doc.sis.columbia.edu/subj/ECON/W3214-20271-001/"
+  },
+  "ECON UN3265": {
+    "pre": "ECON UN3211;ECON UN3213",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON UN3412": {
+    "pre": "ECON UN3211/ECON UN3213;MATH UN1201/MATH UN1205/MATH UN1207;STAT UN1201/STAT GU4001/STAT GU4204",
+    "co": "ECON UN3413",
+    "sourceExtra": "https://bulletin.columbia.edu/columbia-college/departments-instruction/economics/#requirementstext",
+    "note": "The departmental requirements accept higher-level statistics substitutions. The listing also mentions the older SIEO 3001 alternative. Complete the associated discussion section.",
+    "title": "Introduction to Econometrics",
+    "syllabus": {
+      "label": "Spring 2025 syllabus",
+      "url": "https://michaelcbest.github.io/files/UN3412_Syllabus.pdf"
+    }
+  },
+  "ECON UN3413": {
+    "pre": "",
+    "co": "",
+    "sourceExtra": "https://doc.sis.columbia.edu/subj/ECON/W3413-20271-001/",
+    "title": "Introduction to Econometrics Discussion",
+    "credits": [
+      0,
+      0
+    ],
+    "description": "Discussion section accompanying ECON UN3412."
+  },
+  "ECON UN3901": {
+    "pre": "ECON UN3211;ECON UN3213;ECON UN3412",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON UN3902": {
+    "pre": "ECON UN3211;ECON UN3213",
+    "sourceExtra": "https://bulletin.columbia.edu/columbia-college/departments-instruction/economics/#requirementstext",
+    "note": "The department requires both intermediate theory courses for all Columbia 3000- and 4000-level electives."
+  },
+  "ECON UN3952": {
+    "pre": "ECON UN3211;ECON UN3213;ECON UN3412",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECON UN3953": {
+    "pre": "ECON UN3211;ECON UN3213;ECON UN3412",
+    "sourceExtra": "https://econ.columbia.edu/wp-content/uploads/sites/18/2018/03/Pre-Reg-Letter-Nov.-2023.pdf"
+  },
+  "ECON UN3981": {
+    "pre": "ECON UN3211;ECON UN3213;ECON UN3412",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  },
+  "ECPS GU4921": {
+    "pre": "ECON UN3211;ECON UN3213;ECON UN3412;ECON GU4370",
+    "sourceExtra": "https://econ.columbia.edu/undergraduate/course-information/course-prerequisites/"
+  }
+}

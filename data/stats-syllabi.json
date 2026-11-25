@@ -1,0 +1,158 @@
+{
+  "COMS W1004": {
+    "url": "https://www.cs.columbia.edu/~cannon/1004/syllabus.html",
+    "label": "Fall 2018 syllabus"
+  },
+  "COMS W1007": {
+    "url": "https://www.cs.columbia.edu/~bert/courses/1007/",
+    "label": "Archived instructor syllabus"
+  },
+  "COMS W3134": {
+    "url": "https://www.cs.columbia.edu/~bauer/cs3134-f15/coms-w3134-syllabus-f15.pdf",
+    "label": "Fall 2015 syllabus"
+  },
+  "COMS W3136": {
+    "url": "https://www.cs.columbia.edu/~paine/3136/",
+    "label": "Fall 2025 course outline"
+  },
+  "COMS W3137": {
+    "url": "https://www.cs.columbia.edu/~bert/courses/3137/",
+    "label": "Archived instructor syllabus"
+  },
+  "COMS W3261": {
+    "url": "https://www.cs.columbia.edu/~tal/3261/fall26/",
+    "label": "Fall 2026 course outline"
+  },
+  "CSEE W3827": {
+    "url": "https://www.cs.columbia.edu/~paine/3827/",
+    "label": "Summer 2024 course outline"
+  },
+  "COMS W4111": {
+    "url": "https://w4111.github.io/syllabus",
+    "label": "Instructor syllabus"
+  },
+  "COMS W4113": {
+    "url": "https://frankeh.github.io/cu-ds1-2026-fall/",
+    "label": "Fall 2026 course outline"
+  },
+  "COMS W4115": {
+    "url": "https://www.cs.columbia.edu/~aho/cs4115/",
+    "label": "Spring 2015 course outline"
+  },
+  "COMS W4118": {
+    "url": "https://www.cs.columbia.edu/~hgs/teaching/os/syllabus.html",
+    "label": "Archived instructor syllabus"
+  },
+  "CSEE W4119": {
+    "url": "https://www.columbia.edu/~ebk2141/teaching/csee4119/2019FA/2019Fall-4119-info_and_syllabus.pdf",
+    "label": "Fall 2019 syllabus"
+  },
+  "COMS W4160": {
+    "url": "https://www.cs.columbia.edu/~silviasellan/teaching/fall-2025-coms-4160/",
+    "label": "Fall 2025 course outline"
+  },
+  "COMS W4167": {
+    "url": "https://www.cs.columbia.edu/~cxz/teaching/w4167_s25/",
+    "label": "Spring 2025 course outline"
+  },
+  "COMS W4170": {
+    "url": "https://www.cs.columbia.edu/~feiner/courses/csw4170/syllabus-18f.htm",
+    "label": "Fall 2018 syllabus"
+  },
+  "COMS W4181": {
+    "url": "https://www.cs.columbia.edu/~smb/classes/f20/",
+    "label": "Fall 2020 course outline"
+  },
+  "CSOR W4231": {
+    "url": "https://www.cs.columbia.edu/~verma/classes/alg/index.html",
+    "label": "Summer 2025 course outline"
+  },
+  "COMS W4236": {
+    "url": "https://www.cs.columbia.edu/~cs4236/",
+    "label": "Spring 2023 course outline"
+  },
+  "COMS W4252": {
+    "url": "https://www.cs.columbia.edu/~cs4252/",
+    "label": "Fall 2025 course outline"
+  },
+  "CBMF W4761": {
+    "url": "https://www.cs.columbia.edu/4761/home.html",
+    "label": "Archived instructor course outline"
+  },
+  "CSEE W4824": {
+    "url": "https://www.cs.columbia.edu/~cs4824/nextSemester/handouts/syllabus.pdf",
+    "label": "Summer 2018 syllabus"
+  },
+  "CSEE W4868": {
+    "url": "https://www.cs.columbia.edu/~cseesoc/bottomPage.html",
+    "label": "Fall 2026 course outline"
+  },
+  "COMS W3251": {
+    "url": "https://www.cs.columbia.edu/~verma/classes/cla/index.html",
+    "label": "Summer 2023 course outline"
+  },
+  "MATH UN1101": {
+    "url": "https://www.math.columbia.edu/programs-math/undergraduate-program/calculus-classes/calculus-i/calculus-1-sample-syllabus/",
+    "label": "Department sample syllabus"
+  },
+  "MATH UN1102": {
+    "url": "https://www.math.columbia.edu/programs-math/undergraduate-program/calculus-classes/calculus-ii/calculus-ii-sample-syllabus/",
+    "label": "Department sample syllabus"
+  },
+  "MATH UN1201": {
+    "url": "https://www.math.columbia.edu/programs-math/undergraduate-program/calculus-classes/calculus-iii/calculus-iii-sample-syllabus/",
+    "label": "Department sample syllabus"
+  },
+  "MATH UN1202": {
+    "url": "https://www.math.columbia.edu/programs-math/undergraduate-program/calculus-classes/calculus-iv/calculus-4-sample-syllabus/",
+    "label": "Department sample syllabus"
+  },
+  "MATH UN1205": {
+    "url": "https://www.math.columbia.edu/programs-math/undergraduate-program/calculus-classes/accelerated-multivariable-calculus/accelerated-multivariable-calculus-sample-syllabus/",
+    "label": "Department sample syllabus"
+  },
+  "MATH UN1207": {
+    "url": "https://www.math.columbia.edu/~thaddeus/honorsa/syllabus.pdf",
+    "label": "Fall 2015 syllabus"
+  },
+  "MATH UN1208": {
+    "url": "https://www.math.columbia.edu/~thaddeus/honors/syllabus.pdf",
+    "label": "Spring 2016 syllabus"
+  },
+  "MATH UN2010": {
+    "url": "https://www.math.columbia.edu/programs-math/undergraduate-program/linear-algebra/",
+    "label": "Department sample syllabus"
+  },
+  "MATH UN2015": {
+    "url": "https://www.math.columbia.edu/programs-math/undergraduate-program/linear-algebra/linear-algebra-probability/",
+    "label": "Department course outline"
+  },
+  "STAT UN1201": {
+    "url": "https://stat.columbia.edu/~cunningham/syllabi/STAT_UN1201_syllabus.pdf",
+    "label": "Fall 2016 syllabus"
+  },
+  "STAT UN2102": {
+    "url": "https://leewtai.github.io/courses/stat_computing/syllabus.html",
+    "label": "Spring 2021 syllabus"
+  },
+  "STAT GU4207": {
+    "url": "https://aqjaffe.github.io/assets/4207_5207_S25_syllabus.pdf",
+    "label": "Spring 2025 syllabus"
+  },
+  "STAT GU4241": {
+    "url": "https://www.columbia.edu/~skk2175/Courses/Syllabus-GU4241-Spring25.pdf",
+    "label": "Spring 2025 syllabus"
+  },
+  "STAT GU4243": {
+    "url": "https://github.com/TZstatsADS/ADS_Teaching/blob/master/CourseInfo/G5243_ADS.md",
+    "label": "Spring 2024 syllabus"
+  },
+  "COMS W4152": {
+    "url": "https://www.cs.columbia.edu/~junfeng/25fa-w4152/syllabus.html",
+    "label": "Fall 2025 syllabus"
+  },
+  "ENGI E1006": {
+    "url": "https://www.cs.columbia.edu/~paine/1006/",
+    "label": "Spring 2025 course outline"
+  }
+}
