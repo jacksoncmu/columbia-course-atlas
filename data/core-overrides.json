@@ -38,6 +38,61 @@
   "ECON BC3010": {
     "pre": "ECON BC2411/STAT UN1101/STAT UN1201/PSYC BC1101/STAT GU4001;ECON BC1003/ECON UN1105",
     "note": "The Barnard listing also includes legacy Business and IEOR statistics course numbers. The map shows current equivalents for the Columbia statistics numbers."
+  },
+  "BUSI GU4518": {
+    "co": "ECON UN1105/ECON BC1003/BUSI UN3013/ECON UN2261",
+    "note": "Complete or take concurrently one of the listed introductory economics or accounting courses."
+  },
+  "CIEN E4253": {
+    "pre": "ENME E3332/ENGI E1006",
+    "note": "Python knowledge is expected. MECE E6422 and COMS W4995 are recommendations."
+  },
+  "COMS E6173": {
+    "pre": "",
+    "note": "COMS W4172 or equivalent experience is recommended. Contact the instructor about preparation."
+  },
+  "COMS W4113": {
+    "pre": "COMS W3134/COMS W3136/COMS W3137;COMS W4118/CSEE W4119",
+    "note": "The Bulletin text also calls for W3157 or working knowledge of C and C++. Its structured field lists W3157, systems or networking as alternatives. Confirm the expectation for your section."
+  },
+  "COMS W4165": {
+    "pre": "COMS W3137",
+    "note": "Working knowledge of Unix and C is expected. COMS W3251 is recommended."
+  },
+  "CSOR W4223": {
+    "pre": "COMS W3134/COMS W3136/COMS W3137;STAT UN1201/STAT GU4203/IEOR E3658/MATH UN2015",
+    "note": "The graph shows examples of acceptable preparation. The Bulletin expects a data structures and algorithms course, elementary probability and programming proficiency."
+  },
+  "EAEE E4000": {
+    "pre": "ENGI E1006/COMS W1002;MATH UN2010/MATH UN2015/COMS W3251;COMS W4771/STAT GU4241",
+    "note": "The Bulletin expects Python or Julia, some linear algebra, and machine learning. The linked courses are examples of preparation."
+  },
+  "EECS E4321": {
+    "pre": "",
+    "note": "ELEN E3106, ELEN E3331 and CSEE W3827 are recommended preparation."
+  },
+  "ELEN E3106": {
+    "co": "PHYS UN1403/PHYS UN2601"
+  },
+  "ELEN E3201": {
+    "co": "MATH UN1201/APMA E2000"
+  },
+  "ELEN E3801": {
+    "co": "MATH UN1201/APMA E2000"
+  },
+  "IEOR E3658": {
+    "pre": "MATH UN1101/MATH UN1207",
+    "note": "The Bulletin requires calculus. It uses no specific number. The mapped courses are examples and the department recommends strong mathematical skills."
+  },
+  "COMS W4231": {
+    "credits": [
+      3,
+      3
+    ],
+    "title": "Analysis of Algorithms I",
+    "description": "Studies the design and analysis of efficient algorithms, including sorting, graph algorithms and dynamic programming.",
+    "pre": "COMS W3134/COMS W3136/COMS W3137;COMS W3203",
+    "sourceExtra": "https://bulletin.columbia.edu/search/?P=CSOR%20W4231",
+    "note": "The current Columbia Bulletin catalogs Analysis of Algorithms I as CSOR W4231."
   }
 }
-

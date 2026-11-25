@@ -1,0 +1,145 @@
+{
+  "COMS W4130": {
+    "title": "Principles and Practice of Parallel Programming",
+    "credits": [
+      3,
+      3
+    ],
+    "description": "Studies parallel programming techniques, performance analysis and implementation of concurrent algorithms.",
+    "pre": "COMS W3134/COMS W3136/COMS W3137",
+    "note": "The archive calls for data structures and basic algorithm analysis. Java experience is also needed with W3136. The current Statistics Bulletin still lists W4130 as a Data Science elective. Consult the department for availability.",
+    "sourceExtra": "https://www.college.columbia.edu/sites/default/files/columbia_college_bulletin_with_course_listings_2022-2023_pdf_archive.pdf"
+  },
+  "COMS W4180": {
+    "title": "Network Security",
+    "credits": [
+      3,
+      3
+    ],
+    "description": "An introduction to security principles for networks, including authentication, cryptography and defensive protocols.",
+    "pre": "CSEE W4119/COMS W4118",
+    "note": "Archived sections expect networking and sockets programming. One archived section also names older data structures course W3139. Check the department for current equivalents.",
+    "sourceExtra": "https://www.cs.columbia.edu/~smb/classes/f06/prereq.html",
+    "syllabus": {
+      "url": "https://www.cs.columbia.edu/~smb/classes/f06/",
+      "label": "Fall 2006 course outline"
+    }
+  },
+  "COMS W4160": {
+    "pre": "COMS W3134/COMS W3136/COMS W3137;COMS W3251/MATH UN2010/MATH UN2015",
+    "note": "The Bulletin requires a strong programming background and familiarity with linear algebra. The graph shows example linear algebra courses."
+  },
+  "COMS W4444": {
+    "pre": "COMS W3134+COMS W3136/COMS W3137+CSEE W3827"
+  },
+  "CSEE E6863": {
+    "pre": "COMS W3261+COMS W3137/COMS W3134+COMS W3136"
+  },
+  "CSOR E4231": {
+    "pre": "COMS W3134+COMS W3136/COMS W3137+COMS W3203"
+  },
+  "COMS W4121": {
+    "pre": "CSEE W3827",
+    "co": "CSOR W4246/STAT GU4203",
+    "note": "The probability or algorithms course may be taken concurrently or satisfied with equivalent preparation. The listing also expects computer organization and working C or C++ knowledge."
+  },
+  "CSEE W4121": {
+    "pre": "CSEE W3827;CSOR W4246/STAT GU4203",
+    "note": "The graph shows representative computer organization preparation. The listing also expects working C or C++ knowledge and accepts equivalent probability preparation."
+  },
+  "IEOR E4404": {
+    "pre": "IEOR E3658+IEOR E4307/STAT GU4001",
+    "co": "IEOR E3106/IEOR E4106"
+  },
+  "BMCS E4575": {
+    "pre": "APMA E2000;COMS W4771;MATH UN2010/APMA E2101",
+    "note": "The listing calls for machine learning, multivariable calculus and linear algebra alongside strong Python or R skills."
+  },
+  "EECS E6791": {
+    "pre": "ECBM E4040;ELEN E4620",
+    "note": "The current designators for the named courses are ECBM E4040 and ELEN E4620. The listing accepts comparable courses and also expects machine learning, linear algebra, probability and statistics background."
+  },
+  "EECS E6792": {
+    "pre": "ECBM E4040;ELEN E4620",
+    "note": "The listed prerequisites can be met through comparable courses. Machine learning, linear algebra, probability, statistics and working Python knowledge are also expected."
+  },
+  "ELEN E4620": {
+    "title": "Numerical Methods for Data Analysis",
+    "description": "Introduces numerical linear algebra and applications to data fitting, clustering and dimensionality reduction.",
+    "pre": "",
+    "sourceExtra": "https://www.columbia.edu/~ja3451/courses/e4620.html",
+    "syllabus": {
+      "url": "https://www.columbia.edu/~ja3451/courses/e4620.html",
+      "label": "Instructor course outline"
+    },
+    "note": "The instructor expects the ability to write short scripts in Python, Julia, MATLAB or a similar language."
+  },
+  "MECS E4603": {
+    "title": "Applied Robotics: Algorithms and Software",
+    "credits": [
+      3,
+      3
+    ],
+    "description": "Applies software and algorithms to robot motion, manipulation, spatial reasoning and control.",
+    "pre": "COMS W1002/COMS W1004/COMS W1005/ENGI E1006",
+    "sourceExtra": "https://www.me.columbia.edu/files/seas/content/2025-2026_mechanical_engineering_courses_syllabi.docx-compressed_1_1.pdf",
+    "syllabus": {
+      "url": "https://www.me.columbia.edu/files/seas/content/2025-2026_mechanical_engineering_courses_syllabi.docx-compressed_1_1.pdf#page=78",
+      "label": "Mechanical Engineering syllabus collection"
+    }
+  },
+  "MECS E6616": {
+    "pre": "MECE E4602/MECS E4603/COMS W4733",
+    "note": "The prose lists the three robotics courses as alternatives. The structured Bulletin text is inconsistent. Confirm equivalent preparation for the section."
+  },
+  "POLS GU4730": {
+    "pre": "POLS GU4700",
+    "note": "The department accepts equivalent calculus preparation. Instructor permission is required.",
+    "sourceExtra": "https://polisci.columbia.edu/content/game-theory-polit-theory-5"
+  },
+  "PHIL UN3131": {
+    "pre": "PHIL UN1001",
+    "note": "One philosophy course or the instructor’s permission. The graph shows an introductory example."
+  },
+  "PHIL UN3353": {
+    "pre": "PHIL UN1001",
+    "note": "Any previous philosophy course satisfies the listed preparation. The graph shows an introductory example."
+  },
+  "PHIL UN3551": {
+    "pre": "PHIL UN1001",
+    "note": "One philosophy course or the instructor’s permission. The graph shows an introductory example."
+  },
+  "PHIL UN3701": {
+    "pre": "PHIL UN1001",
+    "note": "Any previous philosophy course satisfies the listed preparation. The graph shows an introductory example."
+  },
+  "PHIL GU4810": {
+    "pre": "PHIL UN3411/CSPH GU4801"
+  },
+  "MATH GR5010": {
+    "pre": "MATH UN1102;MATH UN1201;MATH UN1202;MATH UN3027;STAT GR5203/STAT GU4203",
+    "note": "The listing includes legacy designators and accepts equivalents for preparation in multivariable calculus, differential equations and probability."
+  },
+  "PHIL GU4337": {
+    "title": "Early Twentieth Century Philosophy",
+    "description": "Studies key work in early twentieth-century philosophy. The fall 2025 section focused on Frank Ramsey.",
+    "sourceExtra": "https://philosophy.columbia.edu/content/fall-2025-courses",
+    "note": "The department lists this seminar for advanced undergraduates and graduate students."
+  },
+  "PHIL GU4424": {
+    "title": "Modal Logic",
+    "description": "Studies formal systems for reasoning about necessity and possibility.",
+    "pre": "PHIL UN3411/CSPH GU4801",
+    "sourceExtra": "https://bulletin.columbia.edu/pdf/Barnard%20College%20Catalogue%202023-2024.pdf",
+    "note": "Barnard’s archived joint catalogue asks for a term of formal logic. Columbia’s current course card gives no preparation details. Verify the section’s rule."
+  },
+  "PHIL UN3611": {
+    "title": "Metaphysics Discussion",
+    "credits": [
+      0,
+      0
+    ],
+    "description": "Discussion section for PHIL UN3601 when required by the offering.",
+    "sourceExtra": "https://philosophy.columbia.edu/content/fall-2025-courses"
+  }
+}
